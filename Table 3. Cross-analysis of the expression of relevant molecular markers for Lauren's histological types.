@@ -155,92 +155,118 @@
     <div class="container">
         <div class="table-container">
             <table>
-                <caption>Table 3. Cross-analysis of the expression of relevant molecular markers for Lauren's histological types</caption>
+                <caption>Table 3. Cross-analysis of the expression of relevant molecular markers according to Lauren's histological types</caption>
                 <thead>
+                    <!-- 1ª linha -->
                     <tr>
-                        <th rowspan="3">Lauren Type</th>
-                        <th rowspan="3">All, n (%)</th>
-                        <th colspan="4">EBER</th>
-                        <th colspan="4">dMMR</th>
-                        <th colspan="3">p53</th>
-                        <th colspan="3">E-cadherin</th>
-                        <th colspan="4">PD-L1</th>
+                        <th rowspan="3">Lauren type</th>
+                        <th rowspan="3">All, n</th>
+                        <th colspan="5">EBER</th>
+                        <th colspan="5">dMMR</th>
+                        <th colspan="5">p53</th>
+                        <th colspan="5">E-cadherin</th>
+                        <th colspan="7">PD-L1</th>
                     </tr>
+                    <!-- 2ª linha -->
                     <tr class="sub-header">
+                        <!-- EBER -->
                         <th colspan="2">negative</th>
                         <th colspan="2">positive</th>
+                        <th rowspan="2">p</th>
+                        <!-- dMMR -->
                         <th colspan="2">stable</th>
                         <th colspan="2">unstable</th>
-                        <th colspan="1">mt</th>
-                        <th colspan="1">wt</th>
                         <th rowspan="2">p</th>
-                        <th colspan="1">negative</th>
-                        <th colspan="1">positive</th>
+                        <!-- p53 -->
+                        <th colspan="2">mt</th>
+                        <th colspan="2">wt</th>
                         <th rowspan="2">p</th>
-                        <th colspan="1">negative</th>
-                        <th colspan="1">positive</th>
-                        <th colspan="1">unknown</th>
+                        <!-- E-cadherin -->
+                        <th colspan="2">negative</th>
+                        <th colspan="2">positive</th>
+                        <th rowspan="2">p</th>
+                        <!-- PD-L1 -->
+                        <th colspan="2">negative</th>
+                        <th colspan="2">positive</th>
+                        <th colspan="2">unknown</th>
                         <th rowspan="2">p</th>
                     </tr>
+                    <!-- 3ª linha -->
                     <tr class="sub-header">
+                        <!-- EBER -->
                         <th>n</th><th>%</th>
                         <th>n</th><th>%</th>
+                        <!-- dMMR -->
                         <th>n</th><th>%</th>
                         <th>n</th><th>%</th>
+                        <!-- p53 -->
                         <th>n</th><th>%</th>
                         <th>n</th><th>%</th>
+                        <!-- E-cadherin -->
                         <th>n</th><th>%</th>
                         <th>n</th><th>%</th>
+                        <!-- PD-L1 -->
                         <th>n</th><th>%</th>
                         <th>n</th><th>%</th>
                         <th>n</th><th>%</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Intestinal Section -->
+                    <!-- ===================== INTESTINAL ===================== -->
                     <tr class="lauren-section">
-                        <td class="row-header" colspan="20">Intestinal</td>
+                        <td class="row-header" colspan="29">Intestinal</td>
                     </tr>
+                    <!-- Linha resumo intestinal -->
                     <tr>
                         <td class="row-header"></td>
                         <td>82</td>
+                        <!-- EBER -->
                         <td>65</td><td>79%</td>
                         <td>17</td><td>21%</td>
                         <td></td>
+                        <!-- dMMR -->
                         <td>62</td><td>76%</td>
                         <td>20</td><td>24%</td>
                         <td></td>
+                        <!-- p53 -->
                         <td>26</td><td>32%</td>
                         <td>56</td><td>68%</td>
                         <td></td>
+                        <!-- E-cadherin -->
                         <td>4</td><td>5%</td>
                         <td>78</td><td>95%</td>
                         <td></td>
+                        <!-- PD-L1 -->
                         <td>66</td><td>80%</td>
                         <td>12</td><td>15%</td>
                         <td>4</td><td>5%</td>
                         <td></td>
                     </tr>
                     
-                    <!-- EBER Subsection -->
+                    <!-- EBER Intestinal -->
                     <tr class="marker-section">
-                        <td class="sub-row-header" colspan="20">EBER</td>
+                        <td class="sub-row-header" colspan="29">EBER</td>
                     </tr>
                     <tr>
                         <td class="sub-row-header">negative</td>
                         <td>65</td>
+                        <!-- EBER -->
                         <td>-</td><td>-</td>
                         <td>-</td><td>-</td>
                         <td></td>
+                        <!-- dMMR -->
                         <td>45</td><td>69%</td>
                         <td>20</td><td>31%</td>
                         <td class="p-value">p=0.009¹</td>
+                        <!-- p53 -->
                         <td>23</td><td>35%</td>
                         <td>42</td><td>65%</td>
                         <td class="p-value">p=0.2²</td>
+                        <!-- E-cadherin -->
                         <td>3</td><td>4.6%</td>
                         <td>62</td><td>95%</td>
-                        <td class="p-value">p>0.9¹</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- PD-L1 -->
                         <td>56</td><td>86%</td>
                         <td>6</td><td>9.2%</td>
                         <td>3</td><td>4.6%</td>
@@ -249,36 +275,945 @@
                     <tr>
                         <td class="sub-row-header">positive</td>
                         <td>17</td>
+                        <!-- EBER -->
                         <td>-</td><td>-</td>
                         <td>-</td><td>-</td>
                         <td></td>
+                        <!-- dMMR -->
                         <td>17</td><td>100%</td>
                         <td>0</td><td>0%</td>
                         <td></td>
+                        <!-- p53 -->
                         <td>3</td><td>18%</td>
                         <td>14</td><td>82%</td>
                         <td></td>
+                        <!-- E-cadherin -->
                         <td>1</td><td>5.9%</td>
                         <td>16</td><td>94%</td>
                         <td></td>
+                        <!-- PD-L1 -->
                         <td>10</td><td>59%</td>
                         <td>6</td><td>35%</td>
                         <td>1</td><td>5.9%</td>
                         <td></td>
                     </tr>
-                    
-                    <!-- Continue with other sections... -->
-                    
+
+                    <!-- dMMR Intestinal -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">dMMR</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">stable</td>
+                        <td>62</td>
+                        <!-- EBER -->
+                        <td>45</td><td>73%</td>
+                        <td>17</td><td>27%</td>
+                        <td class="p-value">p=0.009¹</td>
+                        <!-- dMMR -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>18</td><td>29%</td>
+                        <td>44</td><td>71%</td>
+                        <td class="p-value">p=0.4²</td>
+                        <!-- E-cadherin -->
+                        <td>1</td><td>1.6%</td>
+                        <td>61</td><td>98%</td>
+                        <td class="p-value">p=0.043¹</td>
+                        <!-- PD-L1 -->
+                        <td>50</td><td>81%</td>
+                        <td>9</td><td>15%</td>
+                        <td>3</td><td>4.8%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">unstable</td>
+                        <td>20</td>
+                        <!-- EBER -->
+                        <td>20</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>8</td><td>40%</td>
+                        <td>12</td><td>60%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>3</td><td>15%</td>
+                        <td>17</td><td>85%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>16</td><td>80%</td>
+                        <td>3</td><td>15%</td>
+                        <td>1</td><td>5.0%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- p53 Intestinal -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">p53</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">mt</td>
+                        <td>26</td>
+                        <!-- EBER -->
+                        <td>23</td><td>88%</td>
+                        <td>3</td><td>12%</td>
+                        <td class="p-value">p=0.2²</td>
+                        <!-- dMMR -->
+                        <td>18</td><td>69%</td>
+                        <td>8</td><td>31%</td>
+                        <td class="p-value">p=0.4²</td>
+                        <!-- p53 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>2</td><td>7.7%</td>
+                        <td>24</td><td>92%</td>
+                        <td class="p-value">p=0.6¹</td>
+                        <!-- PD-L1 -->
+                        <td>21</td><td>81%</td>
+                        <td>4</td><td>15%</td>
+                        <td>1</td><td>3.8%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">wt</td>
+                        <td>56</td>
+                        <!-- EBER -->
+                        <td>42</td><td>75%</td>
+                        <td>14</td><td>25%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>44</td><td>79%</td>
+                        <td>12</td><td>21%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>2</td><td>3.6%</td>
+                        <td>54</td><td>96%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>45</td><td>80%</td>
+                        <td>8</td><td>14%</td>
+                        <td>3</td><td>5.4%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- E-cadherin Intestinal -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">E-cadherin</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">negative</td>
+                        <td>4</td>
+                        <!-- EBER -->
+                        <td>3</td><td>75%</td>
+                        <td>1</td><td>25%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- dMMR -->
+                        <td>1</td><td>25%</td>
+                        <td>3</td><td>75%</td>
+                        <td class="p-value">p=0.043¹</td>
+                        <!-- p53 -->
+                        <td>2</td><td>50%</td>
+                        <td>2</td><td>50%</td>
+                        <td class="p-value">p=0.6¹</td>
+                        <!-- E-cadherin -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>3</td><td>75%</td>
+                        <td>1</td><td>25%</td>
+                        <td>0</td><td>0%</td>
+                        <td class="p-value">p=0.6¹</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">positive</td>
+                        <td>78</td>
+                        <!-- EBER -->
+                        <td>62</td><td>79%</td>
+                        <td>16</td><td>21%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>61</td><td>78%</td>
+                        <td>17</td><td>22%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>24</td><td>31%</td>
+                        <td>54</td><td>69%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>63</td><td>81%</td>
+                        <td>11</td><td>14%</td>
+                        <td>4</td><td>5.1%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- PD-L1 Intestinal -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">PD-L1</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">negative</td>
+                        <td>66</td>
+                        <!-- EBER -->
+                        <td>56</td><td>85%</td>
+                        <td>10</td><td>15%</td>
+                        <td class="p-value">p=0.015¹</td>
+                        <!-- dMMR -->
+                        <td>50</td><td>76%</td>
+                        <td>16</td><td>24%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- p53 -->
+                        <td>21</td><td>32%</td>
+                        <td>45</td><td>68%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- E-cadherin -->
+                        <td>3</td><td>4.5%</td>
+                        <td>63</td><td>95%</td>
+                        <td class="p-value">p=0.6¹</td>
+                        <!-- PD-L1 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">positive</td>
+                        <td>12</td>
+                        <!-- EBER -->
+                        <td>6</td><td>50%</td>
+                        <td>6</td><td>50%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>9</td><td>75%</td>
+                        <td>3</td><td>25%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>4</td><td>33%</td>
+                        <td>8</td><td>67%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>1</td><td>8.3%</td>
+                        <td>11</td><td>92%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">unknown</td>
+                        <td>4</td>
+                        <!-- EBER -->
+                        <td>3</td><td>75%</td>
+                        <td>1</td><td>25%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>3</td><td>75%</td>
+                        <td>1</td><td>25%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>1</td><td>25%</td>
+                        <td>3</td><td>75%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>0</td><td>0%</td>
+                        <td>4</td><td>100%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- ===================== DIFFUSE ===================== -->
+                    <tr class="lauren-section">
+                        <td class="row-header" colspan="29">Diffuse</td>
+                    </tr>
+                    <!-- Linha resumo diffuse -->
+                    <tr>
+                        <td class="row-header"></td>
+                        <td>39</td>
+                        <!-- EBER -->
+                        <td>38</td><td>97%</td>
+                        <td>1</td><td>3%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>35</td><td>90%</td>
+                        <td>4</td><td>10%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>10</td><td>25%</td>
+                        <td>29</td><td>75%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>16</td><td>41%</td>
+                        <td>23</td><td>59%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>35</td><td>90%</td>
+                        <td>1</td><td>3%</td>
+                        <td>3</td><td>8.5%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- EBER Diffuse -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">EBER</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">negative</td>
+                        <td>38</td>
+                        <!-- EBER -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>35</td><td>92%</td>
+                        <td>3</td><td>7.9%</td>
+                        <td class="p-value">p=0.10¹</td>
+                        <!-- p53 -->
+                        <td>10</td><td>26%</td>
+                        <td>28</td><td>74%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- E-cadherin -->
+                        <td>15</td><td>39%</td>
+                        <td>23</td><td>61%</td>
+                        <td class="p-value">p=0.4¹</td>
+                        <!-- PD-L1 -->
+                        <td>34</td><td>89%</td>
+                        <td>1</td><td>2.6%</td>
+                        <td>3</td><td>7.9%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">positive</td>
+                        <td>1</td>
+                        <!-- EBER -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>100%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>100%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>1</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>1</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- dMMR Diffuse -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">dMMR</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">stable</td>
+                        <td>35</td>
+                        <!-- EBER -->
+                        <td>35</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td class="p-value">p=0.10¹</td>
+                        <!-- dMMR -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>8</td><td>23%</td>
+                        <td>27</td><td>77%</td>
+                        <td class="p-value">p=0.3¹</td>
+                        <!-- E-cadherin -->
+                        <td>13</td><td>37%</td>
+                        <td>22</td><td>63%</td>
+                        <td class="p-value">p=0.3¹</td>
+                        <!-- PD-L1 -->
+                        <td>31</td><td>89%</td>
+                        <td>1</td><td>2.9%</td>
+                        <td>3</td><td>8.6%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">unstable</td>
+                        <td>4</td>
+                        <!-- EBER -->
+                        <td>3</td><td>75%</td>
+                        <td>1</td><td>25%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>2</td><td>50%</td>
+                        <td>2</td><td>50%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>3</td><td>75%</td>
+                        <td>1</td><td>25%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>4</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- p53 Diffuse -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">p53</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">mt</td>
+                        <td>10</td>
+                        <!-- EBER -->
+                        <td>10</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- dMMR -->
+                        <td>8</td><td>80%</td>
+                        <td>2</td><td>20%</td>
+                        <td class="p-value">p=0.3¹</td>
+                        <!-- p53 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>3</td><td>30%</td>
+                        <td>7</td><td>70%</td>
+                        <td class="p-value">p=0.5¹</td>
+                        <!-- PD-L1 -->
+                        <td>9</td><td>90%</td>
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>10%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">wt</td>
+                        <td>29</td>
+                        <!-- EBER -->
+                        <td>28</td><td>97%</td>
+                        <td>1</td><td>3%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>27</td><td>93%</td>
+                        <td>2</td><td>6.9%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>13</td><td>45%</td>
+                        <td>16</td><td>55%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>26</td><td>90%</td>
+                        <td>1</td><td>3.4%</td>
+                        <td>2</td><td>6.9%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- E-cadherin Diffuse -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">E-cadherin</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">negative</td>
+                        <td>16</td>
+                        <!-- EBER -->
+                        <td>15</td><td>94%</td>
+                        <td>1</td><td>6.3%</td>
+                        <td class="p-value">p=0.4¹</td>
+                        <!-- dMMR -->
+                        <td>13</td><td>81%</td>
+                        <td>3</td><td>19%</td>
+                        <td class="p-value">p=0.3¹</td>
+                        <!-- p53 -->
+                        <td>3</td><td>19%</td>
+                        <td>13</td><td>81%</td>
+                        <td class="p-value">p=0.5¹</td>
+                        <!-- E-cadherin -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>15</td><td>94%</td>
+                        <td>1</td><td>6.3%</td>
+                        <td>0</td><td>0%</td>
+                        <td class="p-value">p=0.15¹</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">positive</td>
+                        <td>23</td>
+                        <!-- EBER -->
+                        <td>23</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>22</td><td>96%</td>
+                        <td>1</td><td>4.3%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>7</td><td>30%</td>
+                        <td>16</td><td>70%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>20</td><td>87%</td>
+                        <td>0</td><td>0%</td>
+                        <td>3</td><td>13%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- PD-L1 Diffuse -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">PD-L1</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">negative</td>
+                        <td>35</td>
+                        <!-- EBER -->
+                        <td>34</td><td>97%</td>
+                        <td>1</td><td>2.9%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- dMMR -->
+                        <td>31</td><td>89%</td>
+                        <td>4</td><td>11%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- p53 -->
+                        <td>9</td><td>26%</td>
+                        <td>26</td><td>74%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- E-cadherin -->
+                        <td>15</td><td>43%</td>
+                        <td>20</td><td>57%</td>
+                        <td class="p-value">p=0.15¹</td>
+                        <!-- PD-L1 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">positive</td>
+                        <td>1</td>
+                        <!-- EBER -->
+                        <td>1</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>1</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>100%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>1</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">unknown</td>
+                        <td>3</td>
+                        <!-- EBER -->
+                        <td>3</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>3</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>1</td><td>33%</td>
+                        <td>2</td><td>67%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>0</td><td>0%</td>
+                        <td>3</td><td>100%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- ===================== MIXED ===================== -->
+                    <tr class="lauren-section">
+                        <td class="row-header" colspan="29">Mixed</td>
+                    </tr>
+                    <!-- Linha resumo mixed -->
+                    <tr>
+                        <td class="row-header"></td>
+                        <td>17</td>
+                        <!-- EBER -->
+                        <td>15</td><td>88%</td>
+                        <td>2</td><td>12%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>12</td><td>70%</td>
+                        <td>5</td><td>30%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>2</td><td>12%</td>
+                        <td>15</td><td>88%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>1</td><td>6%</td>
+                        <td>16</td><td>94%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>16</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>6%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- EBER Mixed -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">EBER</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">negative</td>
+                        <td>15</td>
+                        <!-- EBER -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>11</td><td>73%</td>
+                        <td>4</td><td>27%</td>
+                        <td class="p-value">p=0.5¹</td>
+                        <!-- p53 -->
+                        <td>2</td><td>13%</td>
+                        <td>13</td><td>87%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- E-cadherin -->
+                        <td>0</td><td>0%</td>
+                        <td>15</td><td>100%</td>
+                        <td class="p-value">p=0.12¹</td>
+                        <!-- PD-L1 -->
+                        <td>14</td><td>93%</td>
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>7%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">positive</td>
+                        <td>2</td>
+                        <!-- EBER -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>1</td><td>50%</td>
+                        <td>1</td><td>50%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>0</td><td>0%</td>
+                        <td>2</td><td>100%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>1</td><td>50%</td>
+                        <td>1</td><td>50%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>2</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- dMMR Mixed -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">dMMR</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">stable</td>
+                        <td>12</td>
+                        <!-- EBER -->
+                        <td>11</td><td>92%</td>
+                        <td>1</td><td>8.3%</td>
+                        <td class="p-value">p=0.5¹</td>
+                        <!-- dMMR -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>2</td><td>17%</td>
+                        <td>10</td><td>83%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- E-cadherin -->
+                        <td>0</td><td>0%</td>
+                        <td>12</td><td>100%</td>
+                        <td class="p-value">p=0.3¹</td>
+                        <!-- PD-L1 -->
+                        <td>11</td><td>92%</td>
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>8%</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">unstable</td>
+                        <td>5</td>
+                        <!-- EBER -->
+                        <td>4</td><td>80%</td>
+                        <td>1</td><td>20%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>0</td><td>0%</td>
+                        <td>5</td><td>100%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>1</td><td>20%</td>
+                        <td>4</td><td>80%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>5</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- p53 Mixed -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">p53</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">mt</td>
+                        <td>2</td>
+                        <!-- EBER -->
+                        <td>2</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- dMMR -->
+                        <td>2</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- p53 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>0</td><td>0%</td>
+                        <td>2</td><td>100%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- PD-L1 -->
+                        <td>2</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">wt</td>
+                        <td>15</td>
+                        <!-- EBER -->
+                        <td>13</td><td>87%</td>
+                        <td>2</td><td>13%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>10</td><td>67%</td>
+                        <td>5</td><td>33%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>1</td><td>6.7%</td>
+                        <td>14</td><td>93%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>14</td><td>93%</td>
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>6.7%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- E-cadherin Mixed -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">E-cadherin</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">negative</td>
+                        <td>1</td>
+                        <!-- EBER -->
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>100%</td>
+                        <td class="p-value">p=0.12¹</td>
+                        <!-- dMMR -->
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>100%</td>
+                        <td class="p-value">p=0.3¹</td>
+                        <!-- p53 -->
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>100%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- E-cadherin -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>1</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td>0</td><td>0%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">positive</td>
+                        <td>16</td>
+                        <!-- EBER -->
+                        <td>15</td><td>94%</td>
+                        <td>1</td><td>6.3%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>12</td><td>75%</td>
+                        <td>4</td><td>25%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>2</td><td>13%</td>
+                        <td>14</td><td>88%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>15</td><td>94%</td>
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>6.3%</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- PD-L1 Mixed -->
+                    <tr class="marker-section">
+                        <td class="sub-row-header" colspan="29">PD-L1</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">negative</td>
+                        <td>16</td>
+                        <!-- EBER -->
+                        <td>14</td><td>88%</td>
+                        <td>2</td><td>13%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- dMMR -->
+                        <td>11</td><td>69%</td>
+                        <td>5</td><td>31%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- p53 -->
+                        <td>2</td><td>13%</td>
+                        <td>14</td><td>88%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- E-cadherin -->
+                        <td>1</td><td>6.3%</td>
+                        <td>15</td><td>94%</td>
+                        <td class="p-value">p&gt;0.9¹</td>
+                        <!-- PD-L1 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">positive</td>
+                        <td>0</td>
+                        <!-- EBER -->
+                        <td>0</td><td>0%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>0</td><td>0%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>0</td><td>0%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>0</td><td>0%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">unknown</td>
+                        <td>1</td>
+                        <!-- EBER -->
+                        <td>1</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- dMMR -->
+                        <td>1</td><td>100%</td>
+                        <td>0</td><td>0%</td>
+                        <td></td>
+                        <!-- p53 -->
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>100%</td>
+                        <td></td>
+                        <!-- E-cadherin -->
+                        <td>0</td><td>0%</td>
+                        <td>1</td><td>100%</td>
+                        <td></td>
+                        <!-- PD-L1 -->
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td>-</td><td>-</td>
+                        <td></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
         
         <div class="footnote">
-            <p><strong>Table 3.</strong> Cross-tabulation of the molecular markers EBER, dMMR, P53, E-cadherin, and PD-L1 according to Lauren's intestinal, diffuse, and mixed histological types. The values represent the number and percentage of cases for each molecular profile within each histological subtype, with corresponding p-values for the indicated comparisons. Statistical significance was determined using Fisher's exact test or Pearson's Chi-squared test, as appropriate. Results highlight the differential distribution of key molecular alterations between intestinal, diffuse, and mixed gastric cancer subtypes, providing insights into the molecular heterogeneity and its potential clinical implications. Due to low sample size, Lauren's indeterminate/other type was not represented in this table.</p>
-            <p>¹ Fisher's exact test; ² Pearson's Chi-squared test. (-) it was not performed autocorelation. Due to the low sample size, Lauren's indeterminate/other type was not represented in this table. mt: mutated; wt: wild type.</p>
+            <p><strong>Table 3.</strong> Cross-tabulation of the molecular markers EBER, dMMR, p53, E-cadherin and PD-L1 according to Lauren's intestinal, diffuse and mixed histological types. Values are given as absolute number and percentage of cases for each molecular profile within each histological subtype, with the corresponding p-values for the indicated comparisons. Statistical significance was assessed using Fisher's exact test or Pearson's Chi-squared test, as appropriate. The table highlights the differential distribution of key molecular alterations among Lauren subtypes, underscoring the molecular heterogeneity of gastric cancer and its potential clinical implications. Due to low sample size, indeterminate/other Lauren types were not included.</p>
+            <p>¹ Fisher's exact test; ² Pearson's Chi-squared test. (–) Test not performed (self-correlation). mt: mutated; wt: wild type.</p>
         </div>
     </div>
 </body>
 </html>
-                   
-   
+    
+             
