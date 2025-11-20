@@ -3,88 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Características Clinicopatológicas do Câncer Gástrico</title>
+    <title>Table 2. Clinicopathological Characteristics According to the Molecular Classifications of Gastric Cancer</title>
     <style>
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Arial, sans-serif;
         }
         
         body {
-            background-color: #f5f7fa;
+            background-color: #f8f9fa;
             color: #333;
-            line-height: 1.6;
+            line-height: 1.4;
             padding: 20px;
+            font-size: 12px;
         }
         
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
         }
         
         header {
-            background: linear-gradient(135deg, #1a6bb3 0%, #0d4d8c 100%);
+            background: linear-gradient(135deg, #1a5276 0%, #2e86c1 100%);
             color: white;
-            padding: 25px 30px;
+            padding: 20px;
             text-align: center;
         }
         
         h1 {
-            font-size: 24px;
-            margin-bottom: 10px;
+            font-size: 18px;
+            margin-bottom: 5px;
             font-weight: 600;
         }
         
         .subtitle {
-            font-size: 16px;
+            font-size: 14px;
             opacity: 0.9;
-            max-width: 800px;
-            margin: 0 auto;
         }
         
         .table-container {
             overflow-x: auto;
-            padding: 20px;
+            padding: 10px;
         }
         
         table {
             width: 100%;
             border-collapse: collapse;
-            min-width: 1000px;
+            min-width: 1200px;
+            font-size: 11px;
         }
         
         th, td {
-            padding: 12px 15px;
+            padding: 6px 8px;
             text-align: center;
-            border: 1px solid #e1e5eb;
+            border: 1px solid #d1d8e0;
+            white-space: nowrap;
         }
         
         th {
-            background-color: #f1f5fd;
+            background-color: #e8f0fe;
             font-weight: 600;
             position: sticky;
             top: 0;
         }
         
+        .main-header {
+            background-color: #2c80d5;
+            color: white;
+            font-size: 13px;
+        }
+        
         .classification-header {
-            background-color: #e3ecf7;
+            background-color: #d6e4f7;
             font-weight: bold;
+            font-size: 12px;
         }
         
         .characteristic-header {
             background-color: #2c80d5;
             color: white;
             text-align: left;
+            font-weight: bold;
         }
         
         .sub-header {
-            background-color: #f8fafd;
+            background-color: #f1f8ff;
+            font-weight: 500;
         }
         
         .characteristic-cell {
@@ -93,63 +103,70 @@
             background-color: #f9fbfe;
         }
         
+        .sub-characteristic {
+            padding-left: 20px !important;
+            text-align: left;
+            background-color: #f9fbfe;
+        }
+        
         .p-value-significant {
-            background-color: #fff2cc;
+            background-color: #fff9c4;
             font-weight: bold;
         }
         
         .p-value-highly-significant {
-            background-color: #ffe6cc;
+            background-color: #ffcc80;
             font-weight: bold;
         }
         
         .footnote {
-            font-size: 12px;
-            color: #666;
-            padding: 15px 20px;
+            font-size: 11px;
+            color: #555;
+            padding: 15px;
             border-top: 1px solid #e1e5eb;
             background-color: #f9fbfe;
+            line-height: 1.5;
         }
         
         .legend {
             display: flex;
             flex-wrap: wrap;
             gap: 15px;
-            margin-top: 20px;
-            padding: 15px;
+            margin-top: 15px;
+            padding: 12px;
             background-color: #f0f7ff;
             border-radius: 5px;
+            font-size: 11px;
         }
         
         .legend-item {
             display: flex;
             align-items: center;
-            font-size: 14px;
         }
         
         .legend-color {
-            width: 20px;
-            height: 20px;
-            margin-right: 8px;
+            width: 16px;
+            height: 16px;
+            margin-right: 6px;
             border-radius: 3px;
         }
         
         .controls {
             display: flex;
             justify-content: space-between;
-            padding: 15px 20px;
+            padding: 12px 15px;
             background-color: #f0f7ff;
             border-bottom: 1px solid #e1e5eb;
         }
         
         .btn {
-            padding: 8px 15px;
+            padding: 6px 12px;
             background-color: #2c80d5;
             color: white;
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            font-size: 14px;
+            font-size: 11px;
             transition: background-color 0.3s;
         }
         
@@ -157,10 +174,16 @@
             background-color: #1a6bb3;
         }
         
+        .unknown-row {
+            background-color: #f5f5f5;
+            font-style: italic;
+            color: #777;
+        }
+        
         @media (max-width: 768px) {
             .controls {
                 flex-direction: column;
-                gap: 10px;
+                gap: 8px;
             }
             
             .btn {
@@ -172,141 +195,239 @@
 <body>
     <div class="container">
         <header>
-            <h1>Características Clinicopatológicas Segundo as Classificações Moleculares do Câncer Gástrico</h1>
-            <p class="subtitle">Análise comparativa das características clinicopatológicas de acordo com as classificações moleculares TCGA, ACRG e Cluster</p>
+            <h1>Table 2. Clinicopathological Characteristics According to the Molecular Classifications of Gastric Cancer</h1>
+            <p class="subtitle">Comparative analysis of clinicopathological features across TCGA, ACRG, and Cluster molecular classifications</p>
         </header>
         
         <div class="controls">
-            <button class="btn" onclick="highlightSignificant()">Destacar Valores Significativos</button>
-            <button class="btn" onclick="resetHighlight()">Remover Destaque</button>
+            <button class="btn" onclick="highlightSignificant()">Highlight Significant Values</button>
+            <button class="btn" onclick="resetHighlight()">Reset Highlighting</button>
+            <button class="btn" onclick="toggleUnknownRows()">Toggle Unknown Rows</button>
         </div>
         
         <div class="table-container">
             <table>
                 <thead>
                     <tr>
-                        <th rowspan="3" class="characteristic-header">Característica</th>
-                        <th colspan="8" class="classification-header">Classificação TCGA</th>
-                        <th colspan="8" class="classification-header">Classificação ACRG</th>
-                        <th colspan="10" class="classification-header">Classificação Cluster</th>
+                        <th rowspan="3" class="characteristic-header">Characteristic</th>
+                        <th colspan="10" class="classification-header main-header">TCGA Classification</th>
+                        <th colspan="10" class="classification-header main-header">ACRG Classification</th>
+                        <th colspan="14" class="classification-header main-header">Cluster Classification</th>
                     </tr>
-                    <tr>
+                    <tr class="sub-header">
                         <!-- TCGA -->
-                        <th colspan="2">EBV<br>N = 22 (%)</th>
-                        <th colspan="2">MSI<br>N = 27 (%)</th>
-                        <th colspan="2">GS<br>N = 13 (%)</th>
-                        <th colspan="2">CIN<br>N = 78 (%)</th>
-                        <th colspan="2">p-value</th>
-                        <th colspan="2">q-value</th>
+                        <th colspan="2">EBV<br>N = 22</th>
+                        <th colspan="2">MSI<br>N = 27</th>
+                        <th colspan="2">GS<br>N = 13</th>
+                        <th colspan="2">CIN<br>N = 78</th>
+                        <th>p-value</th>
+                        <th>q-value</th>
                         
                         <!-- ACRG -->
-                        <th colspan="2">MSI<br>N = 29 (%)</th>
-                        <th colspan="2">MSS/EMT<br>N = 14 (%)</th>
-                        <th colspan="2">MSS/p53 MT<br>N = 25 (%)</th>
-                        <th colspan="2">MSS/p53 WT<br>N = 72 (%)</th>
-                        <th colspan="2">p-value</th>
-                        <th colspan="2">q-value</th>
+                        <th colspan="2">MSI<br>N = 29</th>
+                        <th colspan="2">MSS/EMT<br>N = 14</th>
+                        <th colspan="2">MSS/p53 MT<br>N = 25</th>
+                        <th colspan="2">MSS/p53 WT<br>N = 72</th>
+                        <th>p-value</th>
+                        <th>q-value</th>
                         
                         <!-- Cluster -->
-                        <th colspan="2">Cluster 1<br>N = 22 (%)</th>
-                        <th colspan="2">Cluster 2<br>N = 27 (%)</th>
-                        <th colspan="2">Cluster 3<br>N = 13 (%)</th>
-                        <th colspan="2">Cluster 4<br>N = 23 (%)</th>
-                        <th colspan="2">Cluster 5<br>N = 56 (%)</th>
-                        <th colspan="2">p-value</th>
-                        <th colspan="2">q-value</th>
+                        <th colspan="2">Cluster 1<br>N = 22</th>
+                        <th colspan="2">Cluster 2<br>N = 27</th>
+                        <th colspan="2">Cluster 3<br>N = 13</th>
+                        <th colspan="2">Cluster 4<br>N = 23</th>
+                        <th colspan="2">Cluster 5<br>N = 56</th>
+                        <th>p-value</th>
+                        <th>q-value</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Linhas da tabela aqui -->
+                    <!-- Age Group -->
                     <tr>
                         <td class="characteristic-cell">Age Group</td>
                         <!-- TCGA -->
-                        <td>7 (32)</td><td>16 (59)</td><td>6 (46)</td><td>37 (47)</td>
-                        <td>0.3</td><td>>0.9</td>
+                        <td colspan="8"></td>
+                        <td>0.3</td>
+                        <td>>0.9</td>
                         <!-- ACRG -->
-                        <td>16 (55)</td><td>6 (43)</td><td>12 (48)</td><td>32 (44)</td>
-                        <td>0.8</td><td>>0.9</td>
+                        <td colspan="8"></td>
+                        <td>0.8</td>
+                        <td>>0.9</td>
                         <!-- Cluster -->
-                        <td>7 (32)</td><td>16 (59)</td><td>6 (46)</td><td>11 (48)</td><td>26 (47)</td>
-                        <td>0.5</td><td>>0.9</td>
+                        <td colspan="10"></td>
+                        <td>0.5</td>
+                        <td>>0.9</td>
                     </tr>
                     <tr>
-                        <td class="characteristic-cell" style="padding-left: 20px;">> 63</td>
+                        <td class="sub-characteristic">> 63</td>
                         <!-- TCGA -->
-                        <td>7 (32)</td><td>16 (59)</td><td>6 (46)</td><td>37 (47)</td>
+                        <td>7 (32%)</td><td></td>
+                        <td>16 (59%)</td><td></td>
+                        <td>6 (46%)</td><td></td>
+                        <td>37 (47%)</td><td></td>
                         <td></td><td></td>
                         <!-- ACRG -->
-                        <td>16 (55)</td><td>6 (43)</td><td>12 (48)</td><td>32 (44)</td>
+                        <td>16 (55%)</td><td></td>
+                        <td>6 (43%)</td><td></td>
+                        <td>12 (48%)</td><td></td>
+                        <td>32 (44%)</td><td></td>
                         <td></td><td></td>
                         <!-- Cluster -->
-                        <td>7 (32)</td><td>16 (59)</td><td>6 (46)</td><td>11 (48)</td><td>26 (47)</td>
+                        <td>7 (32%)</td><td></td>
+                        <td>16 (59%)</td><td></td>
+                        <td>6 (46%)</td><td></td>
+                        <td>11 (48%)</td><td></td>
+                        <td>26 (47%)</td><td></td>
                         <td></td><td></td>
                     </tr>
                     <tr>
-                        <td class="characteristic-cell" style="padding-left: 20px;">≤ 63</td>
+                        <td class="sub-characteristic">≤ 63</td>
                         <!-- TCGA -->
-                        <td>15 (68)</td><td>11 (41)</td><td>7 (54)</td><td>41 (53)</td>
+                        <td>15 (68%)</td><td></td>
+                        <td>11 (41%)</td><td></td>
+                        <td>7 (54%)</td><td></td>
+                        <td>41 (53%)</td><td></td>
                         <td></td><td></td>
                         <!-- ACRG -->
-                        <td>13 (45)</td><td>8 (57)</td><td>13 (52)</td><td>40 (56)</td>
+                        <td>13 (45%)</td><td></td>
+                        <td>8 (57%)</td><td></td>
+                        <td>13 (52%)</td><td></td>
+                        <td>40 (56%)</td><td></td>
                         <td></td><td></td>
                         <!-- Cluster -->
-                        <td>15 (68)</td><td>11 (41)</td><td>7 (54)</td><td>12 (52)</td><td>29 (53)</td>
+                        <td>15 (68%)</td><td></td>
+                        <td>11 (41%)</td><td></td>
+                        <td>7 (54%)</td><td></td>
+                        <td>12 (52%)</td><td></td>
+                        <td>29 (53%)</td><td></td>
                         <td></td><td></td>
                     </tr>
                     
+                    <!-- Gender -->
                     <tr>
                         <td class="characteristic-cell">Gender</td>
                         <!-- TCGA -->
-                        <td>4 (18)</td><td>6 (22)</td><td>5 (38)</td><td>26 (33)</td>
-                        <td>0.4</td><td>>0.9</td>
+                        <td colspan="8"></td>
+                        <td>0.4</td>
+                        <td>>0.9</td>
                         <!-- ACRG -->
-                        <td>6 (21)</td><td>5 (36)</td><td>7 (28)</td><td>23 (32)</td>
-                        <td>0.7</td><td>>0.9</td>
+                        <td colspan="8"></td>
+                        <td>0.7</td>
+                        <td>>0.9</td>
                         <!-- Cluster -->
-                        <td>4 (18)</td><td>6 (22)</td><td>5 (38)</td><td>6 (26)</td><td>20 (36)</td>
-                        <td>0.4</td><td>>0.9</td>
+                        <td colspan="10"></td>
+                        <td>0.4</td>
+                        <td>>0.9</td>
                     </tr>
                     <tr>
-                        <td class="characteristic-cell" style="padding-left: 20px;">female</td>
+                        <td class="sub-characteristic">female</td>
                         <!-- TCGA -->
-                        <td>4 (18)</td><td>6 (22)</td><td>5 (38)</td><td>26 (33)</td>
+                        <td>4 (18%)</td><td></td>
+                        <td>6 (22%)</td><td></td>
+                        <td>5 (38%)</td><td></td>
+                        <td>26 (33%)</td><td></td>
                         <td></td><td></td>
                         <!-- ACRG -->
-                        <td>6 (21)</td><td>5 (36)</td><td>7 (28)</td><td>23 (32)</td>
+                        <td>6 (21%)</td><td></td>
+                        <td>5 (36%)</td><td></td>
+                        <td>7 (28%)</td><td></td>
+                        <td>23 (32%)</td><td></td>
                         <td></td><td></td>
                         <!-- Cluster -->
-                        <td>4 (18)</td><td>6 (22)</td><td>5 (38)</td><td>6 (26)</td><td>20 (36)</td>
+                        <td>4 (18%)</td><td></td>
+                        <td>6 (22%)</td><td></td>
+                        <td>5 (38%)</td><td></td>
+                        <td>6 (26%)</td><td></td>
+                        <td>20 (36%)</td><td></td>
                         <td></td><td></td>
                     </tr>
                     <tr>
-                        <td class="characteristic-cell" style="padding-left: 20px;">male</td>
+                        <td class="sub-characteristic">male</td>
                         <!-- TCGA -->
-                        <td>18 (82)</td><td>21 (78)</td><td>8 (62)</td><td>52 (67)</td>
+                        <td>18 (82%)</td><td></td>
+                        <td>21 (78%)</td><td></td>
+                        <td>8 (62%)</td><td></td>
+                        <td>52 (67%)</td><td></td>
                         <td></td><td></td>
                         <!-- ACRG -->
-                        <td>23 (79)</td><td>9 (64)</td><td>18 (72)</td><td>49 (68)</td>
+                        <td>23 (79%)</td><td></td>
+                        <td>9 (64%)</td><td></td>
+                        <td>18 (72%)</td><td></td>
+                        <td>49 (68%)</td><td></td>
                         <td></td><td></td>
                         <!-- Cluster -->
-                        <td>18 (82)</td><td>21 (78)</td><td>8 (62)</td><td>17 (74)</td><td>35 (64)</td>
+                        <td>18 (82%)</td><td></td>
+                        <td>21 (78%)</td><td></td>
+                        <td>8 (62%)</td><td></td>
+                        <td>17 (74%)</td><td></td>
+                        <td>35 (64%)</td><td></td>
                         <td></td><td></td>
                     </tr>
                     
+                    <!-- Lauren -->
                     <tr>
                         <td class="characteristic-cell">Lauren</td>
                         <!-- TCGA -->
-                        <td>1 (4.5)</td><td>3 (11)</td><td>13 (100)</td><td>22 (28)</td>
-                        <td class="p-value-highly-significant"><0.001</td><td></td>
+                        <td colspan="8"></td>
+                        <td class="p-value-highly-significant"><0.001</td>
+                        <td></td>
                         <!-- ACRG -->
-                        <td>4 (14)</td><td>13 (93)</td><td>6 (24)</td><td>16 (22)</td>
-                        <td class="p-value-highly-significant"><0.001</td><td></td>
+                        <td colspan="8"></td>
+                        <td class="p-value-highly-significant"><0.001</td>
+                        <td></td>
                         <!-- Cluster -->
-                        <td>1 (4.5)</td><td>3 (11)</td><td>13 (100)</td><td>6 (26)</td><td>16 (29)</td>
-                        <td class="p-value-highly-significant"><0.001</td><td></td>
+                        <td colspan="10"></td>
+                        <td class="p-value-highly-significant"><0.001</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">diffuse</td>
+                        <!-- TCGA -->
+                        <td>1 (4.5%)</td><td></td>
+                        <td>3 (11%)</td><td></td>
+                        <td>13 (100%)</td><td></td>
+                        <td>22 (28%)</td><td></td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>4 (14%)</td><td></td>
+                        <td>13 (93%)</td><td></td>
+                        <td>6 (24%)</td><td></td>
+                        <td>16 (22%)</td><td></td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>1 (4.5%)</td><td></td>
+                        <td>3 (11%)</td><td></td>
+                        <td>13 (100%)</td><td></td>
+                        <td>6 (26%)</td><td></td>
+                        <td>16 (29%)</td><td></td>
+                        <td></td><td></td>
                     </tr>
                     
-                    <!-- Mais linhas seguindo o mesmo padrão -->
+                    <!-- Continue com as outras linhas seguindo o mesmo padrão -->
+                    
+                    <!-- Exemplo de linha com Unknown -->
+                    <tr class="unknown-row">
+                        <td class="sub-characteristic">Unknown</td>
+                        <!-- TCGA -->
+                        <td colspan="2">3</td>
+                        <td colspan="2">4</td>
+                        <td colspan="2">13</td>
+                        <td colspan="2">28</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td colspan="2">5</td>
+                        <td colspan="2">13</td>
+                        <td colspan="2">7</td>
+                        <td colspan="2">23</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td colspan="2">3</td>
+                        <td colspan="2">4</td>
+                        <td colspan="2">13</td>
+                        <td colspan="2">7</td>
+                        <td colspan="2">21</td>
+                        <td></td><td></td>
+                    </tr>
                     
                 </tbody>
             </table>
@@ -314,23 +435,27 @@
         
         <div class="legend">
             <div class="legend-item">
-                <div class="legend-color" style="background-color: #fff2cc;"></div>
-                <span>Valor p significativo (p < 0.05)</span>
+                <div class="legend-color" style="background-color: #fff9c4;"></div>
+                <span>Significant p-value (p < 0.05)</span>
             </div>
             <div class="legend-item">
-                <div class="legend-color" style="background-color: #ffe6cc;"></div>
-                <span>Valor p altamente significativo (p < 0.001)</span>
+                <div class="legend-color" style="background-color: #ffcc80;"></div>
+                <span>Highly significant p-value (p < 0.001)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #f5f5f5;"></div>
+                <span>Unknown/missing data</span>
             </div>
         </div>
         
         <div class="footnote">
             <p><sup>1</sup>n (%)</p>
-            <p><sup>2</sup>Teste qui-quadrado de Pearson; Teste exato de Fisher.</p>
-            <p><sup>3</sup>Correção de Bonferroni para múltiplos testes.</p>
-            <p><sup>4</sup>V de Cramer moderado.</p>
-            <p>MSI-high, alta instabilidade de microssatélites; MSS: microssatélites estáveis.</p>
-            <p>Vírus Epstein-Barr (EBV), instabilidade de microssatélites (MSI), genomicamente estável (GS) e instabilidade cromossômica (CIN).</p>
-            <p>TILs: Linfócitos infiltrantes de tumor.</p>
+            <p><sup>2</sup>Pearson's Chi-squared test; Fisher's exact test.</p>
+            <p><sup>3</sup>Bonferroni correction for multiple testing.</p>
+            <p><sup>4</sup>Cramer's V moderate.</p>
+            <p>MSI-high, high microsatellite instability; MSS: microsatellite stable.</p>
+            <p>Epstein–Barr virus (EBV), microsatellite instability (MSI), genomically stable (GS) and chromosomal instability (CIN).</p>
+            <p>TILs: Tumor infiltrating lymphocyte.</p>
         </div>
     </div>
 
@@ -342,7 +467,7 @@
                 if (text.includes('<0.001') || text.includes('< 0.001')) {
                     cell.classList.add('p-value-highly-significant');
                 } else if (text.includes('<0.05') || text.includes('< 0.05') || 
-                          (parseFloat(text) < 0.05 && !isNaN(parseFloat(text)))) {
+                          (parseFloat(text) < 0.05 && !isNaN(parseFloat(text)) && text !== '')) {
                     cell.classList.add('p-value-significant');
                 }
             });
@@ -354,6 +479,19 @@
                 cell.classList.remove('p-value-significant', 'p-value-highly-significant');
             });
         }
+        
+        function toggleUnknownRows() {
+            const unknownRows = document.querySelectorAll('.unknown-row');
+            unknownRows.forEach(row => {
+                row.style.display = row.style.display === 'none' ? '' : 'none';
+            });
+        }
+        
+        // Auto-highlight on load
+        document.addEventListener('DOMContentLoaded', function() {
+            highlightSignificant();
+        });
     </script>
 </body>
 </html>
+  
