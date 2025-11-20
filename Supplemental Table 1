@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supplemental Table 1 - Multivariate Survival Analysis</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .table-container {
+            overflow-x: auto;
+            margin: 20px 0;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            font-size: 0.9em;
+        }
+        
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            caption-side: top;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+        
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 12px 15px;
+            text-align: left;
+            vertical-align: middle;
+        }
+        
+        th {
+            background-color: #34495e;
+            color: white;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+        
+        .sub-header {
+            background-color: #4a6b8a;
+            font-weight: 500;
+        }
+        
+        .category-header {
+            background-color: #ecf0f1;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .sub-category {
+            padding-left: 30px;
+            background-color: #f8f9fa;
+        }
+        
+        .p-value-significant {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+        
+        .abbreviation {
+            font-size: 0.85em;
+            color: #6c757d;
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #6c757d;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+            
+            th, td {
+                padding: 8px 10px;
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="table-container">
+            <table>
+                <caption>Supplemental Table 1. Multivariate Survival data of the patient cohort in association with Clinical pathologic features</caption>
+                <thead>
+                    <tr>
+                        <th>Characteristic</th>
+                        <th>HR</th>
+                        <th>95% CI</th>
+                        <th>p-value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Age</td>
+                        <td>1.09</td>
+                        <td>1.01, 1.16</td>
+                        <td class="p-value-significant">0.015</td>
+                    </tr>
+                    
+                    <tr class="category-header">
+                        <td>Grade</td>
+                        <td></td>
+                        <td></td>
+                        <td>&gt;0.9</td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>moderately differentiated</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td></td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>poorly differentiated</td>
+                        <td>0.91</td>
+                        <td>0.17, 4.77</td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr class="category-header">
+                        <td>Lauren</td>
+                        <td></td>
+                        <td></td>
+                        <td>0.4</td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>intestinal</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td></td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>mixed</td>
+                        <td>2.33</td>
+                        <td>0.33, 16.3</td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr class="category-header">
+                        <td>Macro Localization</td>
+                        <td></td>
+                        <td></td>
+                        <td class="p-value-significant">0.012</td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>all extension</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td></td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>Distal</td>
+                        <td>523,143,941</td>
+                        <td>0.00, Inf</td>
+                        <td></td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>Proximal</td>
+                        <td>100,171,499</td>
+                        <td>0.00, Inf</td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr class="category-header">
+                        <td>T (pathological grade)</td>
+                        <td></td>
+                        <td></td>
+                        <td class="p-value-significant">0.019</td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>T1-T2</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td></td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>T3-T4</td>
+                        <td>13.2</td>
+                        <td>1.01, 173</td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr class="category-header">
+                        <td>N (pathological grade)</td>
+                        <td></td>
+                        <td></td>
+                        <td class="p-value-significant">0.035</td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>N0</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td></td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>N1-N2</td>
+                        <td>1.16</td>
+                        <td>0.16, 8.49</td>
+                        <td></td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>N3</td>
+                        <td>7.00</td>
+                        <td>0.99, 49.5</td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr class="category-header">
+                        <td>Tumor Regression Grade</td>
+                        <td></td>
+                        <td></td>
+                        <td class="p-value-significant">0.007</td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>score 1</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td></td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>score 2</td>
+                        <td>0.00</td>
+                        <td>0.00, 0.15</td>
+                        <td></td>
+                    </tr>
+                    <tr class="sub-category">
+                        <td>score 3</td>
+                        <td>0.02</td>
+                        <td>0.00, 0.70</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="abbreviation">
+            <p><strong>Abbreviations:</strong> CI = Confidence Interval, HR = Hazard Ratio</p>
+            <p><em>Note:</em> Values marked with "—" indicate reference categories. Significant p-values (p < 0.05) are highlighted.</p>
+        </div>
+    </div>
+</body>
+</html>
