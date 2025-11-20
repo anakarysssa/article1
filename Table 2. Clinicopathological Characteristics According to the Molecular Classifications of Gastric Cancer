@@ -13,7 +13,7 @@
         }
         
         body {
-            background-color: #f8f9fa;
+            background-color: #f5f7fa;
             color: #333;
             line-height: 1.4;
             padding: 20px;
@@ -42,11 +42,6 @@
             font-weight: 600;
         }
         
-        .subtitle {
-            font-size: 14px;
-            opacity: 0.9;
-        }
-        
         .table-container {
             overflow-x: auto;
             padding: 10px;
@@ -55,7 +50,7 @@
         table {
             width: 100%;
             border-collapse: collapse;
-            min-width: 1200px;
+            min-width: 1300px;
             font-size: 11px;
         }
         
@@ -196,7 +191,6 @@
     <div class="container">
         <header>
             <h1>Table 2. Clinicopathological Characteristics According to the Molecular Classifications of Gastric Cancer</h1>
-            <p class="subtitle">Comparative analysis of clinicopathological features across TCGA, ACRG, and Cluster molecular classifications</p>
         </header>
         
         <div class="controls">
@@ -210,35 +204,35 @@
                 <thead>
                     <tr>
                         <th rowspan="3" class="characteristic-header">Characteristic</th>
-                        <th colspan="10" class="classification-header main-header">TCGA Classification</th>
-                        <th colspan="10" class="classification-header main-header">ACRG Classification</th>
-                        <th colspan="14" class="classification-header main-header">Cluster Classification</th>
+                        <th colspan="6" class="classification-header main-header">TCGA Classification</th>
+                        <th colspan="6" class="classification-header main-header">ACRG Classification</th>
+                        <th colspan="8" class="classification-header main-header">Cluster Classification</th>
                     </tr>
                     <tr class="sub-header">
                         <!-- TCGA -->
-                        <th colspan="2">EBV<br>N = 22</th>
-                        <th colspan="2">MSI<br>N = 27</th>
-                        <th colspan="2">GS<br>N = 13</th>
-                        <th colspan="2">CIN<br>N = 78</th>
-                        <th>p-value</th>
-                        <th>q-value</th>
+                        <th>EBV<br>N = 22 (%)</th>
+                        <th>MSI<br>N = 27 (%)</th>
+                        <th>GS<br>N = 13 (%)</th>
+                        <th>CIN<br>N = 78 (%)</th>
+                        <th>p-value2</th>
+                        <th>q-value3</th>
                         
                         <!-- ACRG -->
-                        <th colspan="2">MSI<br>N = 29</th>
-                        <th colspan="2">MSS/EMT<br>N = 14</th>
-                        <th colspan="2">MSS/p53 MT<br>N = 25</th>
-                        <th colspan="2">MSS/p53 WT<br>N = 72</th>
-                        <th>p-value</th>
-                        <th>q-value</th>
+                        <th>MSI<br>N = 29 (%)</th>
+                        <th>MSS / EMT<br>N = 14 (%)</th>
+                        <th>MSS /p53 MT<br>N = 25 (%)</th>
+                        <th>MSS /p53 WT<br>N = 72 (%)</th>
+                        <th>p-value2</th>
+                        <th>q-value3</th>
                         
                         <!-- Cluster -->
-                        <th colspan="2">Cluster 1<br>N = 22</th>
-                        <th colspan="2">Cluster 2<br>N = 27</th>
-                        <th colspan="2">Cluster 3<br>N = 13</th>
-                        <th colspan="2">Cluster 4<br>N = 23</th>
-                        <th colspan="2">Cluster 5<br>N = 56</th>
-                        <th>p-value</th>
-                        <th>q-value</th>
+                        <th>Cluster 1<br>N = 22 (%)</th>
+                        <th>Cluster 2<br>N = 27 (%)</th>
+                        <th>Cluster 3<br>N = 13 (%)</th>
+                        <th>Cluster 4<br>N = 23 (%)</th>
+                        <th>Cluster 5<br>N = 56 (%)</th>
+                        <th>p-value2</th>
+                        <th>q-value3</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -246,60 +240,60 @@
                     <tr>
                         <td class="characteristic-cell">Age Group</td>
                         <!-- TCGA -->
-                        <td colspan="8"></td>
+                        <td></td><td></td><td></td><td></td>
                         <td>0.3</td>
                         <td>>0.9</td>
                         <!-- ACRG -->
-                        <td colspan="8"></td>
+                        <td></td><td></td><td></td><td></td>
                         <td>0.8</td>
                         <td>>0.9</td>
                         <!-- Cluster -->
-                        <td colspan="10"></td>
+                        <td></td><td></td><td></td><td></td><td></td>
                         <td>0.5</td>
                         <td>>0.9</td>
                     </tr>
                     <tr>
                         <td class="sub-characteristic">> 63</td>
                         <!-- TCGA -->
-                        <td>7 (32%)</td><td></td>
-                        <td>16 (59%)</td><td></td>
-                        <td>6 (46%)</td><td></td>
-                        <td>37 (47%)</td><td></td>
+                        <td>7 (32)</td>
+                        <td>16 (59)</td>
+                        <td>6 (46)</td>
+                        <td>37 (47)</td>
                         <td></td><td></td>
                         <!-- ACRG -->
-                        <td>16 (55%)</td><td></td>
-                        <td>6 (43%)</td><td></td>
-                        <td>12 (48%)</td><td></td>
-                        <td>32 (44%)</td><td></td>
+                        <td>16 (55)</td>
+                        <td>6 (43)</td>
+                        <td>12 (48)</td>
+                        <td>32 (44)</td>
                         <td></td><td></td>
                         <!-- Cluster -->
-                        <td>7 (32%)</td><td></td>
-                        <td>16 (59%)</td><td></td>
-                        <td>6 (46%)</td><td></td>
-                        <td>11 (48%)</td><td></td>
-                        <td>26 (47%)</td><td></td>
+                        <td>7 (32)</td>
+                        <td>16 (59)</td>
+                        <td>6 (46)</td>
+                        <td>11 (48)</td>
+                        <td>26 (47)</td>
                         <td></td><td></td>
                     </tr>
                     <tr>
                         <td class="sub-characteristic">≤ 63</td>
                         <!-- TCGA -->
-                        <td>15 (68%)</td><td></td>
-                        <td>11 (41%)</td><td></td>
-                        <td>7 (54%)</td><td></td>
-                        <td>41 (53%)</td><td></td>
+                        <td>15 (68)</td>
+                        <td>11 (41)</td>
+                        <td>7 (54)</td>
+                        <td>41 (53)</td>
                         <td></td><td></td>
                         <!-- ACRG -->
-                        <td>13 (45%)</td><td></td>
-                        <td>8 (57%)</td><td></td>
-                        <td>13 (52%)</td><td></td>
-                        <td>40 (56%)</td><td></td>
+                        <td>13 (45)</td>
+                        <td>8 (57)</td>
+                        <td>13 (52)</td>
+                        <td>40 (56)</td>
                         <td></td><td></td>
                         <!-- Cluster -->
-                        <td>15 (68%)</td><td></td>
-                        <td>11 (41%)</td><td></td>
-                        <td>7 (54%)</td><td></td>
-                        <td>12 (52%)</td><td></td>
-                        <td>29 (53%)</td><td></td>
+                        <td>15 (68)</td>
+                        <td>11 (41)</td>
+                        <td>7 (54)</td>
+                        <td>12 (52)</td>
+                        <td>29 (53)</td>
                         <td></td><td></td>
                     </tr>
                     
@@ -307,60 +301,60 @@
                     <tr>
                         <td class="characteristic-cell">Gender</td>
                         <!-- TCGA -->
-                        <td colspan="8"></td>
+                        <td></td><td></td><td></td><td></td>
                         <td>0.4</td>
                         <td>>0.9</td>
                         <!-- ACRG -->
-                        <td colspan="8"></td>
+                        <td></td><td></td><td></td><td></td>
                         <td>0.7</td>
                         <td>>0.9</td>
                         <!-- Cluster -->
-                        <td colspan="10"></td>
+                        <td></td><td></td><td></td><td></td><td></td>
                         <td>0.4</td>
                         <td>>0.9</td>
                     </tr>
                     <tr>
                         <td class="sub-characteristic">female</td>
                         <!-- TCGA -->
-                        <td>4 (18%)</td><td></td>
-                        <td>6 (22%)</td><td></td>
-                        <td>5 (38%)</td><td></td>
-                        <td>26 (33%)</td><td></td>
+                        <td>4 (18)</td>
+                        <td>6 (22)</td>
+                        <td>5 (38)</td>
+                        <td>26 (33)</td>
                         <td></td><td></td>
                         <!-- ACRG -->
-                        <td>6 (21%)</td><td></td>
-                        <td>5 (36%)</td><td></td>
-                        <td>7 (28%)</td><td></td>
-                        <td>23 (32%)</td><td></td>
+                        <td>6 (21)</td>
+                        <td>5 (36)</td>
+                        <td>7 (28)</td>
+                        <td>23 (32)</td>
                         <td></td><td></td>
                         <!-- Cluster -->
-                        <td>4 (18%)</td><td></td>
-                        <td>6 (22%)</td><td></td>
-                        <td>5 (38%)</td><td></td>
-                        <td>6 (26%)</td><td></td>
-                        <td>20 (36%)</td><td></td>
+                        <td>4 (18)</td>
+                        <td>6 (22)</td>
+                        <td>5 (38)</td>
+                        <td>6 (26)</td>
+                        <td>20 (36)</td>
                         <td></td><td></td>
                     </tr>
                     <tr>
                         <td class="sub-characteristic">male</td>
                         <!-- TCGA -->
-                        <td>18 (82%)</td><td></td>
-                        <td>21 (78%)</td><td></td>
-                        <td>8 (62%)</td><td></td>
-                        <td>52 (67%)</td><td></td>
+                        <td>18 (82)</td>
+                        <td>21 (78)</td>
+                        <td>8 (62)</td>
+                        <td>52 (67)</td>
                         <td></td><td></td>
                         <!-- ACRG -->
-                        <td>23 (79%)</td><td></td>
-                        <td>9 (64%)</td><td></td>
-                        <td>18 (72%)</td><td></td>
-                        <td>49 (68%)</td><td></td>
+                        <td>23 (79)</td>
+                        <td>9 (64)</td>
+                        <td>18 (72)</td>
+                        <td>49 (68)</td>
                         <td></td><td></td>
                         <!-- Cluster -->
-                        <td>18 (82%)</td><td></td>
-                        <td>21 (78%)</td><td></td>
-                        <td>8 (62%)</td><td></td>
-                        <td>17 (74%)</td><td></td>
-                        <td>35 (64%)</td><td></td>
+                        <td>18 (82)</td>
+                        <td>21 (78)</td>
+                        <td>8 (62)</td>
+                        <td>17 (74)</td>
+                        <td>35 (64)</td>
                         <td></td><td></td>
                     </tr>
                     
@@ -368,66 +362,340 @@
                     <tr>
                         <td class="characteristic-cell">Lauren</td>
                         <!-- TCGA -->
-                        <td colspan="8"></td>
-                        <td class="p-value-highly-significant"><0.001</td>
+                        <td></td><td></td><td></td><td></td>
+                        <td class="p-value-highly-significant">&lt; 0.001 <sup>4</sup></td>
                         <td></td>
                         <!-- ACRG -->
-                        <td colspan="8"></td>
-                        <td class="p-value-highly-significant"><0.001</td>
+                        <td></td><td></td><td></td><td></td>
+                        <td class="p-value-highly-significant">&lt; 0.001 <sup>4</sup></td>
                         <td></td>
                         <!-- Cluster -->
-                        <td colspan="10"></td>
-                        <td class="p-value-highly-significant"><0.001</td>
+                        <td></td><td></td><td></td><td></td><td></td>
+                        <td class="p-value-highly-significant">&lt; 0.001 <sup>4</sup></td>
                         <td></td>
                     </tr>
                     <tr>
                         <td class="sub-characteristic">diffuse</td>
                         <!-- TCGA -->
-                        <td>1 (4.5%)</td><td></td>
-                        <td>3 (11%)</td><td></td>
-                        <td>13 (100%)</td><td></td>
-                        <td>22 (28%)</td><td></td>
+                        <td>1 (4.5)</td>
+                        <td>3 (11)</td>
+                        <td>13 (100)</td>
+                        <td>22 (28)</td>
                         <td></td><td></td>
                         <!-- ACRG -->
-                        <td>4 (14%)</td><td></td>
-                        <td>13 (93%)</td><td></td>
-                        <td>6 (24%)</td><td></td>
-                        <td>16 (22%)</td><td></td>
+                        <td>4 (14)</td>
+                        <td>13 (93)</td>
+                        <td>6 (24)</td>
+                        <td>16 (22)</td>
                         <td></td><td></td>
                         <!-- Cluster -->
-                        <td>1 (4.5%)</td><td></td>
-                        <td>3 (11%)</td><td></td>
-                        <td>13 (100%)</td><td></td>
-                        <td>6 (26%)</td><td></td>
-                        <td>16 (29%)</td><td></td>
+                        <td>1 (4.5)</td>
+                        <td>3 (11)</td>
+                        <td>13 (100)</td>
+                        <td>6 (26)</td>
+                        <td>16 (29)</td>
+                        <td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">indeterminate</td>
+                        <!-- TCGA -->
+                        <td>1 (4.5)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>1 (1.4)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>1 (4.5)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">intestinal</td>
+                        <!-- TCGA -->
+                        <td>17 (77)</td>
+                        <td>20 (74)</td>
+                        <td>0 (0)</td>
+                        <td>45 (58)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>20 (69)</td>
+                        <td>1 (7.1)</td>
+                        <td>17 (68)</td>
+                        <td>44 (61)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>17 (77)</td>
+                        <td>20 (74)</td>
+                        <td>0 (0)</td>
+                        <td>15 (65)</td>
+                        <td>30 (55)</td>
+                        <td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">mixed</td>
+                        <!-- TCGA -->
+                        <td>2 (9.1)</td>
+                        <td>4 (15)</td>
+                        <td>0 (0)</td>
+                        <td>11 (14)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>5 (17)</td>
+                        <td>0 (0)</td>
+                        <td>2 (8.0)</td>
+                        <td>10 (14)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>2 (9.1)</td>
+                        <td>4 (15)</td>
+                        <td>0 (0)</td>
+                        <td>2 (8.7)</td>
+                        <td>9 (16)</td>
+                        <td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">other</td>
+                        <!-- TCGA -->
+                        <td>1 (4.5)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>1 (1.4)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>1 (4.5)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
                         <td></td><td></td>
                     </tr>
                     
-                    <!-- Continue com as outras linhas seguindo o mesmo padrão -->
+                    <!-- Lauren 2 -->
+                    <tr>
+                        <td class="characteristic-cell">Lauren 2</td>
+                        <!-- TCGA -->
+                        <td></td><td></td><td></td><td></td>
+                        <td class="p-value-highly-significant">&lt; 0.001 <sup>4</sup></td>
+                        <td></td>
+                        <!-- ACRG -->
+                        <td></td><td></td><td></td><td></td>
+                        <td class="p-value-highly-significant">&lt; 0.001 <sup>4</sup></td>
+                        <td></td>
+                        <!-- Cluster -->
+                        <td></td><td></td><td></td><td></td><td></td>
+                        <td class="p-value-highly-significant">&lt; 0.001 <sup>4</sup></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">diffuse</td>
+                        <!-- TCGA -->
+                        <td>1 (4.5)</td>
+                        <td>3 (11)</td>
+                        <td>13 (100)</td>
+                        <td>22 (28)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>4 (14)</td>
+                        <td>13 (93)</td>
+                        <td>6 (24)</td>
+                        <td>16 (22)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>1 (4.5)</td>
+                        <td>3 (11)</td>
+                        <td>13 (100)</td>
+                        <td>6 (26)</td>
+                        <td>16 (29)</td>
+                        <td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">indeterminate_other</td>
+                        <!-- TCGA -->
+                        <td>2 (9.1)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>2 (2.8)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>2 (9.1)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">intestinal</td>
+                        <!-- TCGA -->
+                        <td>17 (77)</td>
+                        <td>20 (74)</td>
+                        <td>0 (0)</td>
+                        <td>45 (58)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>20 (69)</td>
+                        <td>1 (7.1)</td>
+                        <td>17 (68)</td>
+                        <td>44 (61)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>17 (77)</td>
+                        <td>20 (74)</td>
+                        <td>0 (0)</td>
+                        <td>15 (65)</td>
+                        <td>30 (55)</td>
+                        <td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">mixed</td>
+                        <!-- TCGA -->
+                        <td>2 (9.1)</td>
+                        <td>4 (15)</td>
+                        <td>0 (0)</td>
+                        <td>11 (14)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>5 (17)</td>
+                        <td>0 (0)</td>
+                        <td>2 (8.0)</td>
+                        <td>10 (14)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>2 (9.1)</td>
+                        <td>4 (15)</td>
+                        <td>0 (0)</td>
+                        <td>2 (8.7)</td>
+                        <td>9 (16)</td>
+                        <td></td><td></td>
+                    </tr>
                     
-                    <!-- Exemplo de linha com Unknown -->
+                    <!-- Grade -->
+                    <tr>
+                        <td class="characteristic-cell">Grade</td>
+                        <!-- TCGA -->
+                        <td></td><td></td><td></td><td></td>
+                        <td class="p-value-significant">0.021</td>
+                        <td>0.5</td>
+                        <!-- ACRG -->
+                        <td></td><td></td><td></td><td></td>
+                        <td class="p-value-significant">0.012</td>
+                        <td>0.14</td>
+                        <!-- Cluster -->
+                        <td></td><td></td><td></td><td></td><td></td>
+                        <td class="p-value-significant">0.017</td>
+                        <td>0.13</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">moderately differentiated</td>
+                        <!-- TCGA -->
+                        <td>5 (26)</td>
+                        <td>14 (61)</td>
+                        <td>0 (0)</td>
+                        <td>32 (64)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>15 (63)</td>
+                        <td>0 (0)</td>
+                        <td>14 (78)</td>
+                        <td>22 (45)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>5 (26)</td>
+                        <td>14 (61)</td>
+                        <td>0 (NA)</td>
+                        <td>12 (75)</td>
+                        <td>20 (59)</td>
+                        <td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">poorly differentiated</td>
+                        <!-- TCGA -->
+                        <td>14 (74)</td>
+                        <td>9 (39)</td>
+                        <td>0 (0)</td>
+                        <td>17 (34)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>9 (38)</td>
+                        <td>1 (100)</td>
+                        <td>3 (17)</td>
+                        <td>27 (55)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>14 (74)</td>
+                        <td>9 (39)</td>
+                        <td>0 (NA)</td>
+                        <td>3 (19)</td>
+                        <td>14 (41)</td>
+                        <td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-characteristic">Well differentiated</td>
+                        <!-- TCGA -->
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>1 (2.0)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>1 (5.6)</td>
+                        <td>0 (0)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>0 (0)</td>
+                        <td>0 (0)</td>
+                        <td>0 (NA)</td>
+                        <td>1 (6.3)</td>
+                        <td>0 (0)</td>
+                        <td></td><td></td>
+                    </tr>
                     <tr class="unknown-row">
                         <td class="sub-characteristic">Unknown</td>
                         <!-- TCGA -->
-                        <td colspan="2">3</td>
-                        <td colspan="2">4</td>
-                        <td colspan="2">13</td>
-                        <td colspan="2">28</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>13</td>
+                        <td>28</td>
                         <td></td><td></td>
                         <!-- ACRG -->
-                        <td colspan="2">5</td>
-                        <td colspan="2">13</td>
-                        <td colspan="2">7</td>
-                        <td colspan="2">23</td>
+                        <td>5</td>
+                        <td>13</td>
+                        <td>7</td>
+                        <td>23</td>
                         <td></td><td></td>
                         <!-- Cluster -->
-                        <td colspan="2">3</td>
-                        <td colspan="2">4</td>
-                        <td colspan="2">13</td>
-                        <td colspan="2">7</td>
-                        <td colspan="2">21</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>13</td>
+                        <td>7</td>
+                        <td>21</td>
                         <td></td><td></td>
                     </tr>
+                    
+                    <!-- Continue com as outras seções seguindo o mesmo padrão -->
                     
                 </tbody>
             </table>
@@ -494,4 +762,13 @@
     </script>
 </body>
 </html>
+ 
+     
+        
+    
+    
+ 
+                
+            
+
   
