@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Características Clinicopatológicas do Câncer Gástrico</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1a6bb3 0%, #0d4d8c 100%);
+            color: white;
+            padding: 25px 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .table-container {
+            overflow-x: auto;
+            padding: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 1000px;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: center;
+            border: 1px solid #e1e5eb;
+        }
+        
+        th {
+            background-color: #f1f5fd;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+        
+        .classification-header {
+            background-color: #e3ecf7;
+            font-weight: bold;
+        }
+        
+        .characteristic-header {
+            background-color: #2c80d5;
+            color: white;
+            text-align: left;
+        }
+        
+        .sub-header {
+            background-color: #f8fafd;
+        }
+        
+        .characteristic-cell {
+            text-align: left;
+            font-weight: 500;
+            background-color: #f9fbfe;
+        }
+        
+        .p-value-significant {
+            background-color: #fff2cc;
+            font-weight: bold;
+        }
+        
+        .p-value-highly-significant {
+            background-color: #ffe6cc;
+            font-weight: bold;
+        }
+        
+        .footnote {
+            font-size: 12px;
+            color: #666;
+            padding: 15px 20px;
+            border-top: 1px solid #e1e5eb;
+            background-color: #f9fbfe;
+        }
+        
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0f7ff;
+            border-radius: 5px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            border-radius: 3px;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 20px;
+            background-color: #f0f7ff;
+            border-bottom: 1px solid #e1e5eb;
+        }
+        
+        .btn {
+            padding: 8px 15px;
+            background-color: #2c80d5;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #1a6bb3;
+        }
+        
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Características Clinicopatológicas Segundo as Classificações Moleculares do Câncer Gástrico</h1>
+            <p class="subtitle">Análise comparativa das características clinicopatológicas de acordo com as classificações moleculares TCGA, ACRG e Cluster</p>
+        </header>
+        
+        <div class="controls">
+            <button class="btn" onclick="highlightSignificant()">Destacar Valores Significativos</button>
+            <button class="btn" onclick="resetHighlight()">Remover Destaque</button>
+        </div>
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="3" class="characteristic-header">Característica</th>
+                        <th colspan="8" class="classification-header">Classificação TCGA</th>
+                        <th colspan="8" class="classification-header">Classificação ACRG</th>
+                        <th colspan="10" class="classification-header">Classificação Cluster</th>
+                    </tr>
+                    <tr>
+                        <!-- TCGA -->
+                        <th colspan="2">EBV<br>N = 22 (%)</th>
+                        <th colspan="2">MSI<br>N = 27 (%)</th>
+                        <th colspan="2">GS<br>N = 13 (%)</th>
+                        <th colspan="2">CIN<br>N = 78 (%)</th>
+                        <th colspan="2">p-value</th>
+                        <th colspan="2">q-value</th>
+                        
+                        <!-- ACRG -->
+                        <th colspan="2">MSI<br>N = 29 (%)</th>
+                        <th colspan="2">MSS/EMT<br>N = 14 (%)</th>
+                        <th colspan="2">MSS/p53 MT<br>N = 25 (%)</th>
+                        <th colspan="2">MSS/p53 WT<br>N = 72 (%)</th>
+                        <th colspan="2">p-value</th>
+                        <th colspan="2">q-value</th>
+                        
+                        <!-- Cluster -->
+                        <th colspan="2">Cluster 1<br>N = 22 (%)</th>
+                        <th colspan="2">Cluster 2<br>N = 27 (%)</th>
+                        <th colspan="2">Cluster 3<br>N = 13 (%)</th>
+                        <th colspan="2">Cluster 4<br>N = 23 (%)</th>
+                        <th colspan="2">Cluster 5<br>N = 56 (%)</th>
+                        <th colspan="2">p-value</th>
+                        <th colspan="2">q-value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Linhas da tabela aqui -->
+                    <tr>
+                        <td class="characteristic-cell">Age Group</td>
+                        <!-- TCGA -->
+                        <td>7 (32)</td><td>16 (59)</td><td>6 (46)</td><td>37 (47)</td>
+                        <td>0.3</td><td>>0.9</td>
+                        <!-- ACRG -->
+                        <td>16 (55)</td><td>6 (43)</td><td>12 (48)</td><td>32 (44)</td>
+                        <td>0.8</td><td>>0.9</td>
+                        <!-- Cluster -->
+                        <td>7 (32)</td><td>16 (59)</td><td>6 (46)</td><td>11 (48)</td><td>26 (47)</td>
+                        <td>0.5</td><td>>0.9</td>
+                    </tr>
+                    <tr>
+                        <td class="characteristic-cell" style="padding-left: 20px;">> 63</td>
+                        <!-- TCGA -->
+                        <td>7 (32)</td><td>16 (59)</td><td>6 (46)</td><td>37 (47)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>16 (55)</td><td>6 (43)</td><td>12 (48)</td><td>32 (44)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>7 (32)</td><td>16 (59)</td><td>6 (46)</td><td>11 (48)</td><td>26 (47)</td>
+                        <td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td class="characteristic-cell" style="padding-left: 20px;">≤ 63</td>
+                        <!-- TCGA -->
+                        <td>15 (68)</td><td>11 (41)</td><td>7 (54)</td><td>41 (53)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>13 (45)</td><td>8 (57)</td><td>13 (52)</td><td>40 (56)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>15 (68)</td><td>11 (41)</td><td>7 (54)</td><td>12 (52)</td><td>29 (53)</td>
+                        <td></td><td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="characteristic-cell">Gender</td>
+                        <!-- TCGA -->
+                        <td>4 (18)</td><td>6 (22)</td><td>5 (38)</td><td>26 (33)</td>
+                        <td>0.4</td><td>>0.9</td>
+                        <!-- ACRG -->
+                        <td>6 (21)</td><td>5 (36)</td><td>7 (28)</td><td>23 (32)</td>
+                        <td>0.7</td><td>>0.9</td>
+                        <!-- Cluster -->
+                        <td>4 (18)</td><td>6 (22)</td><td>5 (38)</td><td>6 (26)</td><td>20 (36)</td>
+                        <td>0.4</td><td>>0.9</td>
+                    </tr>
+                    <tr>
+                        <td class="characteristic-cell" style="padding-left: 20px;">female</td>
+                        <!-- TCGA -->
+                        <td>4 (18)</td><td>6 (22)</td><td>5 (38)</td><td>26 (33)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>6 (21)</td><td>5 (36)</td><td>7 (28)</td><td>23 (32)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>4 (18)</td><td>6 (22)</td><td>5 (38)</td><td>6 (26)</td><td>20 (36)</td>
+                        <td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td class="characteristic-cell" style="padding-left: 20px;">male</td>
+                        <!-- TCGA -->
+                        <td>18 (82)</td><td>21 (78)</td><td>8 (62)</td><td>52 (67)</td>
+                        <td></td><td></td>
+                        <!-- ACRG -->
+                        <td>23 (79)</td><td>9 (64)</td><td>18 (72)</td><td>49 (68)</td>
+                        <td></td><td></td>
+                        <!-- Cluster -->
+                        <td>18 (82)</td><td>21 (78)</td><td>8 (62)</td><td>17 (74)</td><td>35 (64)</td>
+                        <td></td><td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="characteristic-cell">Lauren</td>
+                        <!-- TCGA -->
+                        <td>1 (4.5)</td><td>3 (11)</td><td>13 (100)</td><td>22 (28)</td>
+                        <td class="p-value-highly-significant"><0.001</td><td></td>
+                        <!-- ACRG -->
+                        <td>4 (14)</td><td>13 (93)</td><td>6 (24)</td><td>16 (22)</td>
+                        <td class="p-value-highly-significant"><0.001</td><td></td>
+                        <!-- Cluster -->
+                        <td>1 (4.5)</td><td>3 (11)</td><td>13 (100)</td><td>6 (26)</td><td>16 (29)</td>
+                        <td class="p-value-highly-significant"><0.001</td><td></td>
+                    </tr>
+                    
+                    <!-- Mais linhas seguindo o mesmo padrão -->
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #fff2cc;"></div>
+                <span>Valor p significativo (p < 0.05)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #ffe6cc;"></div>
+                <span>Valor p altamente significativo (p < 0.001)</span>
+            </div>
+        </div>
+        
+        <div class="footnote">
+            <p><sup>1</sup>n (%)</p>
+            <p><sup>2</sup>Teste qui-quadrado de Pearson; Teste exato de Fisher.</p>
+            <p><sup>3</sup>Correção de Bonferroni para múltiplos testes.</p>
+            <p><sup>4</sup>V de Cramer moderado.</p>
+            <p>MSI-high, alta instabilidade de microssatélites; MSS: microssatélites estáveis.</p>
+            <p>Vírus Epstein-Barr (EBV), instabilidade de microssatélites (MSI), genomicamente estável (GS) e instabilidade cromossômica (CIN).</p>
+            <p>TILs: Linfócitos infiltrantes de tumor.</p>
+        </div>
+    </div>
+
+    <script>
+        function highlightSignificant() {
+            const cells = document.querySelectorAll('td');
+            cells.forEach(cell => {
+                const text = cell.textContent.trim();
+                if (text.includes('<0.001') || text.includes('< 0.001')) {
+                    cell.classList.add('p-value-highly-significant');
+                } else if (text.includes('<0.05') || text.includes('< 0.05') || 
+                          (parseFloat(text) < 0.05 && !isNaN(parseFloat(text)))) {
+                    cell.classList.add('p-value-significant');
+                }
+            });
+        }
+        
+        function resetHighlight() {
+            const cells = document.querySelectorAll('td');
+            cells.forEach(cell => {
+                cell.classList.remove('p-value-significant', 'p-value-highly-significant');
+            });
+        }
+    </script>
+</body>
+</html>
