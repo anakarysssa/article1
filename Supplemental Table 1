@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supplemental Table 1 - Multivariate Survival Analysis</title>
+    <title>Supplementary Table 1 - Multivariate Survival Analysis</title>
     <style>
         * {
             box-sizing: border-box;
@@ -116,7 +116,7 @@
     <div class="container">
         <div class="table-container">
             <table>
-                <caption>Supplemental Table 1. Multivariate Survival data of the patient cohort in association with Clinical pathologic features</caption>
+                <caption>Supplementary Table 1. Multivariate Survival data of the patient cohort in association with Clinical pathologic features</caption>
                 <thead>
                     <tr>
                         <th>Characteristic</th>
