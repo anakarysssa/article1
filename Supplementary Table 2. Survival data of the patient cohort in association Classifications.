@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supplemental Table 2 - Survival Analysis by Molecular Classifications</title>
+    <title>Supplementary Table 2 - Survival Analysis by Molecular Classifications</title>
     <style>
         * {
             box-sizing: border-box;
@@ -127,7 +127,7 @@
     <div class="container">
         <div class="table-container">
             <table>
-                <caption>Supplemental Table 2. Survival data of the patient cohort in association with Classifications</caption>
+                <caption>Supplementary Table 2. Survival data of the patient cohort in association with Classifications</caption>
                 <thead>
                     <tr>
                         <th>Characteristic</th>
