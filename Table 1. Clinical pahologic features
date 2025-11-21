@@ -1,1464 +1,231 @@
-<html>
-  <head>
-    <meta charset="utf-8"/>
-    <title>SheetJS Table Export</title>
-  </head>
-  <body>
-    <table>
-      <tr>
-        <td colspan="17" data-t="s" data-v="Table 1. Clinical pahologic features " id="sjs-A1" xml:space="preserve">Table 1. Clinical pahologic features </td>
-      </tr>
-      <tr>
-        <td id="sjs-A2">
-        </td>
-        <td id="sjs-B2">
-        </td>
-        <td colspan="2" data-t="s" data-v="EBER " id="sjs-C2" xml:space="preserve">EBER </td>
-        <td id="sjs-E2">
-        </td>
-        <td colspan="2" data-t="s" data-v="MMR" id="sjs-F2">MMR</td>
-        <td id="sjs-H2">
-        </td>
-        <td colspan="2" data-t="s" data-v="P53" id="sjs-I2">P53</td>
-        <td id="sjs-K2">
-        </td>
-        <td colspan="2" data-t="s" data-v="E-cadherin" id="sjs-L2">E-cadherin</td>
-        <td id="sjs-N2">
-        </td>
-        <td colspan="2" data-t="s" data-v="PD-L1" id="sjs-O2">PD-L1</td>
-        <td id="sjs-Q2">
-        </td>
-      </tr>
-      <tr>
-        <td id="sjs-A3">
-        </td>
-        <td data-t="s" data-v="All, n (%)" id="sjs-B3">All, n (%)</td>
-        <td data-t="s" data-v="negative" id="sjs-C3">negative</td>
-        <td data-t="s" data-v="positive" id="sjs-D3">positive</td>
-        <td data-t="s" data-v="p1" id="sjs-E3">p<span style="font-size:11pt;">
-          <i>
-            <sup>1</i>
-          </sup>
-        </span>
-      </td>
-      <td data-t="s" data-v="stable" id="sjs-F3">stable</td>
-      <td data-t="s" data-v="unstable" id="sjs-G3">unstable</td>
-      <td data-t="s" data-v="p1" id="sjs-H3">p<span style="font-size:11pt;">
-        <i>
-          <sup>1</i>
-        </sup>
-      </span>
-    </td>
-    <td data-t="s" data-v="mt" id="sjs-I3">mt</td>
-    <td data-t="s" data-v="wt" id="sjs-J3">wt</td>
-    <td data-t="s" data-v="p1" id="sjs-K3">p<span style="font-size:11pt;">
-      <i>
-        <sup>1</i>
-      </sup>
-    </span>
-  </td>
-  <td data-t="s" data-v="negative" id="sjs-L3">negative</td>
-  <td data-t="s" data-v="positive" id="sjs-M3">positive</td>
-  <td data-t="s" data-v="p1" id="sjs-N3">p<span style="font-size:11pt;">
-    <i>
-      <sup>1</i>
-    </sup>
-  </span>
-</td>
-<td data-t="s" data-v="negative" id="sjs-O3">negative</td>
-<td data-t="s" data-v="positive" id="sjs-P3">positive</td>
-<td data-t="s" data-v="p1" id="sjs-Q3">p<span style="font-size:11pt;">
-  <i>
-    <sup>1</i>
-  </sup>
-</span>
-</td>
-</tr>
-<tr>
-  <td id="sjs-A4">
-  </td>
-  <td data-t="s" data-v="140 (100)" id="sjs-B4">140 (100)</td>
-  <td colspan="2" data-t="s" data-v="140/140 (%)" id="sjs-C4">140/140 (%)</td>
-  <td id="sjs-E4">
-  </td>
-  <td colspan="2" data-t="s" data-v="140/140 (%)" id="sjs-F4">140/140 (%)</td>
-  <td id="sjs-H4">
-  </td>
-  <td colspan="2" data-t="s" data-v="140/140 (%)" id="sjs-I4">140/140 (%)</td>
-  <td id="sjs-K4">
-  </td>
-  <td colspan="2" data-t="s" data-v="140/140 (%)" id="sjs-L4">140/140 (%)</td>
-  <td id="sjs-N4">
-  </td>
-  <td colspan="2" data-t="s" data-v="132/140 (%)" id="sjs-O4">132/140 (%)</td>
-  <td id="sjs-Q4">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="Age" id="sjs-A5">Age</td>
-  <td id="sjs-B5">
-  </td>
-  <td data-t="s" data-v="118 (84.3)" id="sjs-C5">118 (84.3)</td>
-  <td data-t="s" data-v="22 (15.7)" id="sjs-D5">22 (15.7)</td>
-  <td id="sjs-E5">
-  </td>
-  <td data-t="s" data-v="111 (79.3 )" id="sjs-F5">111 (79.3 )</td>
-  <td data-t="s" data-v="29 (20.7)" id="sjs-G5">29 (20.7)</td>
-  <td id="sjs-H5">
-  </td>
-  <td data-t="s" data-v="38 (27.1)" id="sjs-I5">38 (27.1)</td>
-  <td data-t="s" data-v="102 (72.9)" id="sjs-J5">102 (72.9)</td>
-  <td data-t="s" data-v=" " id="sjs-K5" xml:space="preserve"> </td>
-  <td data-t="s" data-v="21 (15)" id="sjs-L5">21 (15)</td>
-  <td data-t="s" data-v="119 (85)" id="sjs-M5">119 (85)</td>
-  <td id="sjs-N5">
-  </td>
-  <td data-t="s" data-v="118 (89.4)" id="sjs-O5">118 (89.4)</td>
-  <td data-t="s" data-v="14 (10.6)" id="sjs-P5">14 (10.6)</td>
-  <td id="sjs-Q5">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="> 63" id="sjs-A6">&gt; 63</td>
-  <td data-t="s" data-v="66 (47.1)" id="sjs-B6">66 (47.1)</td>
-  <td data-t="s" data-v="59 (50)" id="sjs-C6">59 (50)</td>
-  <td data-t="s" data-v="7 (31.8)" id="sjs-D6">7 (31.8)</td>
-  <td data-t="s" data-v=" p=0.182" id="sjs-E6" xml:space="preserve"> p=0.182</td>
-  <td data-t="s" data-v="50 (75.8)" id="sjs-F6">50 (75.8)</td>
-  <td data-t="s" data-v="16 (24.2)" id="sjs-G6">16 (24.2)</td>
-  <td data-t="s" data-v=" p=0.445" id="sjs-H6" xml:space="preserve"> p=0.445</td>
-  <td data-t="s" data-v="18 (27.3)" id="sjs-I6">18 (27.3)</td>
-  <td data-t="s" data-v="48 (72.7)" id="sjs-J6">48 (72.7)</td>
-  <td data-t="s" data-v="p=1.000" id="sjs-K6">p=1.000</td>
-  <td data-t="s" data-v="9 (13.6)" id="sjs-L6">9 (13.6)</td>
-  <td data-t="s" data-v="57 (86.4)" id="sjs-M6">57 (86.4)</td>
-  <td data-t="s" data-v="p=0.850" id="sjs-N6">p=0.850</td>
-  <td data-t="s" data-v="55 (88.7)" id="sjs-O6">55 (88.7)</td>
-  <td data-t="s" data-v="7 (11.3)" id="sjs-P6">7 (11.3)</td>
-  <td data-t="s" data-v="p=1.000" id="sjs-Q6">p=1.000</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="≤ 63" id="sjs-A7">≤ 63</td>
-  <td data-t="s" data-v="74 (52.9)" id="sjs-B7">74 (52.9)</td>
-  <td data-t="s" data-v="59 (79.7)" id="sjs-C7">59 (79.7)</td>
-  <td data-t="s" data-v="15 (20.3)" id="sjs-D7">15 (20.3)</td>
-  <td id="sjs-E7">
-  </td>
-  <td data-t="s" data-v="61 (82.4)" id="sjs-F7">61 (82.4)</td>
-  <td data-t="s" data-v="13 (17.6)" id="sjs-G7">13 (17.6)</td>
-  <td id="sjs-H7">
-  </td>
-  <td data-t="s" data-v="20 (27)" id="sjs-I7">20 (27)</td>
-  <td data-t="s" data-v="54 (73)" id="sjs-J7">54 (73)</td>
-  <td id="sjs-K7">
-  </td>
-  <td data-t="s" data-v="12 (16.2)" id="sjs-L7">12 (16.2)</td>
-  <td data-t="s" data-v="62 (83.8)" id="sjs-M7">62 (83.8)</td>
-  <td id="sjs-N7">
-  </td>
-  <td data-t="s" data-v="63 (90)" id="sjs-O7">63 (90)</td>
-  <td data-t="s" data-v="7 (10)" id="sjs-P7">7 (10)</td>
-  <td id="sjs-Q7">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="Gender" id="sjs-A8">Gender</td>
-  <td id="sjs-B8">
-  </td>
-  <td id="sjs-C8">
-  </td>
-  <td id="sjs-D8">
-  </td>
-  <td id="sjs-E8">
-  </td>
-  <td id="sjs-F8">
-  </td>
-  <td id="sjs-G8">
-  </td>
-  <td id="sjs-H8">
-  </td>
-  <td id="sjs-I8">
-  </td>
-  <td id="sjs-J8">
-  </td>
-  <td id="sjs-K8">
-  </td>
-  <td id="sjs-L8">
-  </td>
-  <td id="sjs-M8">
-  </td>
-  <td id="sjs-N8">
-  </td>
-  <td id="sjs-O8">
-  </td>
-  <td id="sjs-P8">
-  </td>
-  <td id="sjs-Q8">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="female" id="sjs-A9">female</td>
-  <td data-t="s" data-v="41(29.3)" id="sjs-B9">41(29.3)</td>
-  <td data-t="s" data-v="37 (90.2)" id="sjs-C9">37 (90.2)</td>
-  <td data-t="s" data-v="4 (9.8)" id="sjs-D9">4 (9.8)</td>
-  <td data-t="s" data-v=" p=0.308" id="sjs-E9" xml:space="preserve"> p=0.308</td>
-  <td data-t="s" data-v="35 (85.4)" id="sjs-F9">35 (85.4)</td>
-  <td data-t="s" data-v="6 (14.6)" id="sjs-G9">6 (14.6)</td>
-  <td data-t="s" data-v=" p=0.360" id="sjs-H9" xml:space="preserve"> p=0.360</td>
-  <td data-t="s" data-v="9(22)" id="sjs-I9">9(22)</td>
-  <td data-t="s" data-v="32 (78)" id="sjs-J9">32 (78)</td>
-  <td data-t="s" data-v=" p=0.496" id="sjs-K9" xml:space="preserve"> p=0.496</td>
-  <td data-t="s" data-v="8 (19.5)" id="sjs-L9">8 (19.5)</td>
-  <td data-t="s" data-v="33 (80.5)" id="sjs-M9">33 (80.5)</td>
-  <td data-t="s" data-v=" p=0.435" id="sjs-N9" xml:space="preserve"> p=0.435</td>
-  <td data-t="s" data-v="37 (94.9)" id="sjs-O9">37 (94.9)</td>
-  <td data-t="s" data-v="2 (5.1)" id="sjs-P9">2 (5.1)</td>
-  <td data-t="s" data-v="p=0.230" id="sjs-Q9">p=0.230</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="male" id="sjs-A10">male</td>
-  <td data-t="s" data-v="99 (70.7)" id="sjs-B10">99 (70.7)</td>
-  <td data-t="s" data-v="81(81.8)" id="sjs-C10">81(81.8)</td>
-  <td data-t="s" data-v="18 (18.2)" id="sjs-D10">18 (18.2)</td>
-  <td id="sjs-E10">
-  </td>
-  <td data-t="s" data-v="76 (76.8)" id="sjs-F10">76 (76.8)</td>
-  <td data-t="s" data-v="23 (23.2)" id="sjs-G10">23 (23.2)</td>
-  <td id="sjs-H10">
-  </td>
-  <td data-t="s" data-v="29 (23.3)" id="sjs-I10">29 (23.3)</td>
-  <td data-t="s" data-v="70 (70.7)" id="sjs-J10">70 (70.7)</td>
-  <td id="sjs-K10">
-  </td>
-  <td data-t="s" data-v="13 (13.1)" id="sjs-L10">13 (13.1)</td>
-  <td data-t="s" data-v="86 (86.9)" id="sjs-M10">86 (86.9)</td>
-  <td id="sjs-N10">
-  </td>
-  <td data-t="s" data-v="81 (87.1)" id="sjs-O10">81 (87.1)</td>
-  <td data-t="s" data-v="12 (12.9)" id="sjs-P10">12 (12.9)</td>
-  <td id="sjs-Q10">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="Lauren" id="sjs-A11">Lauren</td>
-  <td id="sjs-B11">
-  </td>
-  <td colspan="2" id="sjs-C11">
-  </td>
-  <td id="sjs-E11">
-  </td>
-  <td colspan="2" id="sjs-F11">
-  </td>
-  <td id="sjs-H11">
-  </td>
-  <td colspan="2" id="sjs-I11">
-  </td>
-  <td id="sjs-K11">
-  </td>
-  <td colspan="2" id="sjs-L11">
-  </td>
-  <td id="sjs-N11">
-  </td>
-  <td colspan="2" id="sjs-O11">
-  </td>
-  <td id="sjs-Q11">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="intestinal" id="sjs-A12">intestinal</td>
-  <td data-t="s" data-v="82 (58.6 )" id="sjs-B12">82 (58.6 )</td>
-  <td data-t="s" data-v="65 (70.3)" id="sjs-C12">65 (70.3)</td>
-  <td data-t="s" data-v="17 (20.7)" id="sjs-D12">17 (20.7)</td>
-  <td data-t="s" data-v="p=0.001" id="sjs-E12">p=0.001</td>
-  <td data-t="s" data-v="62 (75.6)" id="sjs-F12">62 (75.6)</td>
-  <td data-t="s" data-v="20 (24.4)" id="sjs-G12">20 (24.4)</td>
-  <td data-t="s" data-v="p=0.187" id="sjs-H12">p=0.187</td>
-  <td data-t="s" data-v="26 (31.7)" id="sjs-I12">26 (31.7)</td>
-  <td data-t="s" data-v="56 (68.3)" id="sjs-J12">56 (68.3)</td>
-  <td data-t="s" data-v="p=0.339" id="sjs-K12">p=0.339</td>
-  <td data-t="s" data-v="4 (4.9)" id="sjs-L12">4 (4.9)</td>
-  <td data-t="s" data-v="78 (95.1)" id="sjs-M12">78 (95.1)</td>
-  <td data-t="s" data-v="p< 0.001" id="sjs-N12">p&lt; 0.001</td>
-  <td data-t="s" data-v="66 (84.6)" id="sjs-O12">66 (84.6)</td>
-  <td data-t="s" data-v="12 (15.4)" id="sjs-P12">12 (15.4)</td>
-  <td data-t="s" data-v="p=0.028" id="sjs-Q12">p=0.028</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="diffuse" id="sjs-A13">diffuse</td>
-  <td data-t="s" data-v="39 (27.9 )" id="sjs-B13">39 (27.9 )</td>
-  <td data-t="s" data-v="38 (97.4)" id="sjs-C13">38 (97.4)</td>
-  <td data-t="s" data-v="1 (2.6)" id="sjs-D13">1 (2.6)</td>
-  <td id="sjs-E13">
-  </td>
-  <td data-t="s" data-v="35 (89.7)" id="sjs-F13">35 (89.7)</td>
-  <td data-t="s" data-v="4 (10.3)" id="sjs-G13">4 (10.3)</td>
-  <td id="sjs-H13">
-  </td>
-  <td data-t="s" data-v="10 (25.6)" id="sjs-I13">10 (25.6)</td>
-  <td data-t="s" data-v="29 (74.4)" id="sjs-J13">29 (74.4)</td>
-  <td id="sjs-K13">
-  </td>
-  <td data-t="s" data-v="16 (41)" id="sjs-L13">16 (41)</td>
-  <td data-t="s" data-v="23 (59)" id="sjs-M13">23 (59)</td>
-  <td id="sjs-N13">
-  </td>
-  <td data-t="s" data-v="35 (97.2)" id="sjs-O13">35 (97.2)</td>
-  <td data-t="s" data-v="1(2.8)" id="sjs-P13">1(2.8)</td>
-  <td id="sjs-Q13">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="mixed" id="sjs-A14">mixed</td>
-  <td data-t="s" data-v="17 (12.1 )" id="sjs-B14">17 (12.1 )</td>
-  <td data-t="s" data-v="15 (88.2)" id="sjs-C14">15 (88.2)</td>
-  <td data-t="s" data-v="2(11.8)" id="sjs-D14">2(11.8)</td>
-  <td id="sjs-E14">
-  </td>
-  <td data-t="s" data-v="12 (70.6)" id="sjs-F14">12 (70.6)</td>
-  <td data-t="s" data-v="5 (29.4)" id="sjs-G14">5 (29.4)</td>
-  <td id="sjs-H14">
-  </td>
-  <td data-t="s" data-v="2 (11.8)" id="sjs-I14">2 (11.8)</td>
-  <td data-t="s" data-v="15 (88.2)" id="sjs-J14">15 (88.2)</td>
-  <td id="sjs-K14">
-  </td>
-  <td data-t="s" data-v="1 (5.9)" id="sjs-L14">1 (5.9)</td>
-  <td data-t="s" data-v="16 (94.1)" id="sjs-M14">16 (94.1)</td>
-  <td id="sjs-N14">
-  </td>
-  <td data-t="s" data-v="16 (100)" id="sjs-O14">16 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-P14">0 (0)</td>
-  <td id="sjs-Q14">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="indeterminate/other" id="sjs-A15">indeterminate/other</td>
-  <td data-t="s" data-v="2 (1.4 )" id="sjs-B15">2 (1.4 )</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-C15">0 (0)</td>
-  <td data-t="s" data-v="2 (100)" id="sjs-D15">2 (100)</td>
-  <td id="sjs-E15">
-  </td>
-  <td data-t="s" data-v="2 (100)" id="sjs-F15">2 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-G15">0 (0)</td>
-  <td id="sjs-H15">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-I15">0 (0)</td>
-  <td data-t="s" data-v="2 (100)" id="sjs-J15">2 (100)</td>
-  <td id="sjs-K15">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-L15">0 (0)</td>
-  <td data-t="s" data-v="2 (100)" id="sjs-M15">2 (100)</td>
-  <td id="sjs-N15">
-  </td>
-  <td data-t="s" data-v="1(50)" id="sjs-O15">1(50)</td>
-  <td data-t="s" data-v="1(50)" id="sjs-P15">1(50)</td>
-  <td id="sjs-Q15">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="Differentiated grade" id="sjs-A16">Differentiated grade</td>
-  <td id="sjs-B16">
-  </td>
-  <td colspan="2" id="sjs-C16">
-  </td>
-  <td id="sjs-E16">
-  </td>
-  <td colspan="2" id="sjs-F16">
-  </td>
-  <td id="sjs-H16">
-  </td>
-  <td colspan="2" id="sjs-I16">
-  </td>
-  <td id="sjs-K16">
-  </td>
-  <td colspan="2" id="sjs-L16">
-  </td>
-  <td id="sjs-N16">
-  </td>
-  <td colspan="2" id="sjs-O16">
-  </td>
-  <td id="sjs-Q16">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="moderately differentiated" id="sjs-A17">moderately differentiated</td>
-  <td data-t="s" data-v="51 (55.4)" id="sjs-B17">51 (55.4)</td>
-  <td data-t="s" data-v="46 (90.2)" id="sjs-C17">46 (90.2)</td>
-  <td data-t="s" data-v="5 (9.8)" id="sjs-D17">5 (9.8)</td>
-  <td data-t="s" data-v="p=0.006" id="sjs-E17">p=0.006</td>
-  <td data-t="s" data-v="36 (70.6)" id="sjs-F17">36 (70.6)</td>
-  <td data-t="s" data-v="15 (29.4)" id="sjs-G17">15 (29.4)</td>
-  <td data-t="s" data-v="p=0.618" id="sjs-H17">p=0.618</td>
-  <td data-t="s" data-v="21 (41.2)" id="sjs-I17">21 (41.2)</td>
-  <td data-t="s" data-v="30 (58.8)" id="sjs-J17">30 (58.8)</td>
-  <td data-t="s" data-v="p=0.002" id="sjs-K17">p=0.002</td>
-  <td data-t="s" data-v="2 (3.9)" id="sjs-L17">2 (3.9)</td>
-  <td data-t="s" data-v="49 (96.1)" id="sjs-M17">49 (96.1)</td>
-  <td data-t="s" data-v="p=0.658" id="sjs-N17">p=0.658</td>
-  <td data-t="s" data-v="41(83.7)" id="sjs-O17">41(83.7)</td>
-  <td data-t="s" data-v="8 (16.3)" id="sjs-P17">8 (16.3)</td>
-  <td data-t="s" data-v="p=0.801" id="sjs-Q17">p=0.801</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="poorly differentiated" id="sjs-A18">poorly differentiated</td>
-  <td data-t="s" data-v="40 (43.5)" id="sjs-B18">40 (43.5)</td>
-  <td data-t="s" data-v="26 (65)" id="sjs-C18">26 (65)</td>
-  <td data-t="s" data-v="14 (35)" id="sjs-D18">14 (35)</td>
-  <td id="sjs-E18">
-  </td>
-  <td data-t="s" data-v="31 (77.5)" id="sjs-F18">31 (77.5)</td>
-  <td data-t="s" data-v="9 (22.5)" id="sjs-G18">9 (22.5)</td>
-  <td id="sjs-H18">
-  </td>
-  <td data-t="s" data-v="5 (12.5)" id="sjs-I18">5 (12.5)</td>
-  <td data-t="s" data-v="35 (87.5)" id="sjs-J18">35 (87.5)</td>
-  <td id="sjs-K18">
-  </td>
-  <td data-t="s" data-v="3 (7.5)" id="sjs-L18">3 (7.5)</td>
-  <td data-t="s" data-v="37 (92.5)" id="sjs-M18">37 (92.5)</td>
-  <td id="sjs-N18">
-  </td>
-  <td data-t="s" data-v="33 (86.8)" id="sjs-O18">33 (86.8)</td>
-  <td data-t="s" data-v="5 (13.2)" id="sjs-P18">5 (13.2)</td>
-  <td id="sjs-Q18">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="Well differentiated" id="sjs-A19">Well differentiated</td>
-  <td data-t="s" data-v="1 (1.1)" id="sjs-B19">1 (1.1)</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-C19">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-D19">0 (0)</td>
-  <td id="sjs-E19">
-  </td>
-  <td data-t="s" data-v="1 (100)" id="sjs-F19">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-G19">0 (0)</td>
-  <td id="sjs-H19">
-  </td>
-  <td data-t="s" data-v="1 (100)" id="sjs-I19">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-J19">0 (0)</td>
-  <td id="sjs-K19">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-L19">0 (0)</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-M19">1 (100)</td>
-  <td id="sjs-N19">
-  </td>
-  <td data-t="s" data-v="1 (100)" id="sjs-O19">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-P19">0 (0)</td>
-  <td id="sjs-Q19">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="Topography" id="sjs-A20">Topography</td>
-  <td id="sjs-B20">
-  </td>
-  <td id="sjs-C20">
-  </td>
-  <td id="sjs-D20">
-  </td>
-  <td id="sjs-E20">
-  </td>
-  <td id="sjs-F20">
-  </td>
-  <td id="sjs-G20">
-  </td>
-  <td id="sjs-H20">
-  </td>
-  <td id="sjs-I20">
-  </td>
-  <td id="sjs-J20">
-  </td>
-  <td id="sjs-K20">
-  </td>
-  <td id="sjs-L20">
-  </td>
-  <td id="sjs-M20">
-  </td>
-  <td id="sjs-N20">
-  </td>
-  <td id="sjs-O20">
-  </td>
-  <td id="sjs-P20">
-  </td>
-  <td id="sjs-Q20">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="GEJ/Cardia" id="sjs-A21">GEJ/Cardia</td>
-  <td data-t="s" data-v="11 (7.9)" id="sjs-B21">11 (7.9)</td>
-  <td data-t="s" data-v="9 (81.8)" id="sjs-C21">9 (81.8)</td>
-  <td data-t="s" data-v="2 (18.2)" id="sjs-D21">2 (18.2)</td>
-  <td data-t="s" data-v="p=0.015" id="sjs-E21">p=0.015</td>
-  <td data-t="s" data-v="10 (90.9)" id="sjs-F21">10 (90.9)</td>
-  <td data-t="s" data-v="1 (9.1)" id="sjs-G21">1 (9.1)</td>
-  <td data-t="s" data-v=" p=0.007" id="sjs-H21" xml:space="preserve"> p=0.007</td>
-  <td data-t="s" data-v="3 (27.3)" id="sjs-I21">3 (27.3)</td>
-  <td data-t="s" data-v="8 (72.7)" id="sjs-J21">8 (72.7)</td>
-  <td data-t="s" data-v="p=0.763" id="sjs-K21">p=0.763</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-L21">0 (0)</td>
-  <td data-t="s" data-v="11 (100)" id="sjs-M21">11 (100)</td>
-  <td data-t="s" data-v=" p=0.009" id="sjs-N21" xml:space="preserve"> p=0.009</td>
-  <td data-t="s" data-v="9 (90)" id="sjs-O21">9 (90)</td>
-  <td data-t="s" data-v="1 (10)" id="sjs-P21">1 (10)</td>
-  <td data-t="s" data-v=" p=0.744" id="sjs-Q21" xml:space="preserve"> p=0.744</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="fundus" id="sjs-A22">fundus</td>
-  <td data-t="s" data-v="1 (0.7)" id="sjs-B22">1 (0.7)</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-C22">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-D22">0 (0)</td>
-  <td id="sjs-E22">
-  </td>
-  <td data-t="s" data-v="1 (100)" id="sjs-F22">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-G22">0 (0)</td>
-  <td id="sjs-H22">
-  </td>
-  <td data-t="s" data-v="1 (100)" id="sjs-I22">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-J22">0 (0)</td>
-  <td id="sjs-K22">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-L22">0 (0)</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-M22">1 (100)</td>
-  <td id="sjs-N22">
-  </td>
-  <td data-t="s" data-v="1 (100)" id="sjs-O22">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-P22">0 (0)</td>
-  <td id="sjs-Q22">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="body" id="sjs-A23">body</td>
-  <td data-t="s" data-v="30 (21.4)" id="sjs-B23">30 (21.4)</td>
-  <td data-t="s" data-v="20 (66.7)" id="sjs-C23">20 (66.7)</td>
-  <td data-t="s" data-v="10 (33.3)" id="sjs-D23">10 (33.3)</td>
-  <td id="sjs-E23">
-  </td>
-  <td data-t="s" data-v="29 (96.7)" id="sjs-F23">29 (96.7)</td>
-  <td data-t="s" data-v="1 (3.3)" id="sjs-G23">1 (3.3)</td>
-  <td id="sjs-H23">
-  </td>
-  <td data-t="s" data-v="6 (20)" id="sjs-I23">6 (20)</td>
-  <td data-t="s" data-v="24 (80)" id="sjs-J23">24 (80)</td>
-  <td id="sjs-K23">
-  </td>
-  <td data-t="s" data-v="4 (13.3)" id="sjs-L23">4 (13.3)</td>
-  <td data-t="s" data-v="26 (86.7)" id="sjs-M23">26 (86.7)</td>
-  <td id="sjs-N23">
-  </td>
-  <td data-t="s" data-v="23 (85.2)" id="sjs-O23">23 (85.2)</td>
-  <td data-t="s" data-v="4 (14.8)" id="sjs-P23">4 (14.8)</td>
-  <td id="sjs-Q23">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="body e antrum" id="sjs-A24">body e antrum</td>
-  <td data-t="s" data-v="14 (10)" id="sjs-B24">14 (10)</td>
-  <td data-t="s" data-v="13 (92.9)" id="sjs-C24">13 (92.9)</td>
-  <td data-t="s" data-v="1 (7.1)" id="sjs-D24">1 (7.1)</td>
-  <td id="sjs-E24">
-  </td>
-  <td data-t="s" data-v="7 (50)" id="sjs-F24">7 (50)</td>
-  <td data-t="s" data-v="7 (50)" id="sjs-G24">7 (50)</td>
-  <td id="sjs-H24">
-  </td>
-  <td data-t="s" data-v="5 (35.7)" id="sjs-I24">5 (35.7)</td>
-  <td data-t="s" data-v="9 (64.3)" id="sjs-J24">9 (64.3)</td>
-  <td id="sjs-K24">
-  </td>
-  <td data-t="s" data-v="3 (21.4)" id="sjs-L24">3 (21.4)</td>
-  <td data-t="s" data-v="11 (78.6)" id="sjs-M24">11 (78.6)</td>
-  <td id="sjs-N24">
-  </td>
-  <td data-t="s" data-v="12 (92.3)" id="sjs-O24">12 (92.3)</td>
-  <td data-t="s" data-v="1 (7.7)" id="sjs-P24">1 (7.7)</td>
-  <td id="sjs-Q24">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="antrum" id="sjs-A25">antrum</td>
-  <td data-t="s" data-v="40 (28.6)" id="sjs-B25">40 (28.6)</td>
-  <td data-t="s" data-v="37 (92.5)" id="sjs-C25">37 (92.5)</td>
-  <td data-t="s" data-v="3 (7.5)" id="sjs-D25">3 (7.5)</td>
-  <td id="sjs-E25">
-  </td>
-  <td data-t="s" data-v="32 (80)" id="sjs-F25">32 (80)</td>
-  <td data-t="s" data-v="8 (20)" id="sjs-G25">8 (20)</td>
-  <td id="sjs-H25">
-  </td>
-  <td data-t="s" data-v="10 (25)" id="sjs-I25">10 (25)</td>
-  <td data-t="s" data-v="30 (75)" id="sjs-J25">30 (75)</td>
-  <td id="sjs-K25">
-  </td>
-  <td data-t="s" data-v="10 (25)" id="sjs-L25">10 (25)</td>
-  <td data-t="s" data-v="30 (75)" id="sjs-M25">30 (75)</td>
-  <td id="sjs-N25">
-  </td>
-  <td data-t="s" data-v="36 (94.7)" id="sjs-O25">36 (94.7)</td>
-  <td data-t="s" data-v="2 (5.3)" id="sjs-P25">2 (5.3)</td>
-  <td id="sjs-Q25">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="antrum e pylorus" id="sjs-A26">antrum e pylorus</td>
-  <td data-t="s" data-v="26 (18.6)" id="sjs-B26">26 (18.6)</td>
-  <td data-t="s" data-v="24 (92.3)" id="sjs-C26">24 (92.3)</td>
-  <td data-t="s" data-v="2 (7.7)" id="sjs-D26">2 (7.7)</td>
-  <td id="sjs-E26">
-  </td>
-  <td data-t="s" data-v="21 (80.8)" id="sjs-F26">21 (80.8)</td>
-  <td data-t="s" data-v="5 (19.2)" id="sjs-G26">5 (19.2)</td>
-  <td id="sjs-H26">
-  </td>
-  <td data-t="s" data-v="8 (30.8)" id="sjs-I26">8 (30.8)</td>
-  <td data-t="s" data-v="18 (69.2)" id="sjs-J26">18 (69.2)</td>
-  <td id="sjs-K26">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-L26">0 (0)</td>
-  <td data-t="s" data-v="26 (100)" id="sjs-M26">26 (100)</td>
-  <td id="sjs-N26">
-  </td>
-  <td data-t="s" data-v="22 (88)" id="sjs-O26">22 (88)</td>
-  <td data-t="s" data-v="3 (12)" id="sjs-P26">3 (12)</td>
-  <td id="sjs-Q26">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="pylorus" id="sjs-A27">pylorus</td>
-  <td data-t="s" data-v="8 (5.7)" id="sjs-B27">8 (5.7)</td>
-  <td data-t="s" data-v="8 (100)" id="sjs-C27">8 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-D27">0 (0)</td>
-  <td id="sjs-E27">
-  </td>
-  <td data-t="s" data-v="5 (62.5)" id="sjs-F27">5 (62.5)</td>
-  <td data-t="s" data-v="3 (37.5)" id="sjs-G27">3 (37.5)</td>
-  <td id="sjs-H27">
-  </td>
-  <td data-t="s" data-v="3 (37.5)" id="sjs-I27">3 (37.5)</td>
-  <td data-t="s" data-v="5 (62.5)" id="sjs-J27">5 (62.5)</td>
-  <td id="sjs-K27">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-L27">0 (0)</td>
-  <td data-t="s" data-v="8 (100)" id="sjs-M27">8 (100)</td>
-  <td id="sjs-N27">
-  </td>
-  <td data-t="s" data-v="7 (87.5)" id="sjs-O27">7 (87.5)</td>
-  <td data-t="s" data-v="1 (12.5)" id="sjs-P27">1 (12.5)</td>
-  <td id="sjs-Q27">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="all stomach" id="sjs-A28">all stomach</td>
-  <td data-t="s" data-v="9 (6.4)" id="sjs-B28">9 (6.4)</td>
-  <td data-t="s" data-v="6 (66.7)" id="sjs-C28">6 (66.7)</td>
-  <td data-t="s" data-v="3 (33.3)" id="sjs-D28">3 (33.3)</td>
-  <td id="sjs-E28">
-  </td>
-  <td data-t="s" data-v="5 (55.6)" id="sjs-F28">5 (55.6)</td>
-  <td data-t="s" data-v="4 (44.4)" id="sjs-G28">4 (44.4)</td>
-  <td id="sjs-H28">
-  </td>
-  <td data-t="s" data-v="2 (22.2)" id="sjs-I28">2 (22.2)</td>
-  <td data-t="s" data-v="7 (77.8)" id="sjs-J28">7 (77.8)</td>
-  <td id="sjs-K28">
-  </td>
-  <td data-t="s" data-v="4 (44.4)" id="sjs-L28">4 (44.4)</td>
-  <td data-t="s" data-v="5 (55.6)" id="sjs-M28">5 (55.6)</td>
-  <td id="sjs-N28">
-  </td>
-  <td data-t="s" data-v="7 (77.8)" id="sjs-O28">7 (77.8)</td>
-  <td data-t="s" data-v="2 (22.2)" id="sjs-P28">2 (22.2)</td>
-  <td id="sjs-Q28">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="other" id="sjs-A29">other</td>
-  <td data-t="s" data-v="1 (0.7)" id="sjs-B29">1 (0.7)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-C29">0 (0)</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-D29">1 (100)</td>
-  <td id="sjs-E29">
-  </td>
-  <td data-t="s" data-v="1 (100)" id="sjs-F29">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-G29">0 (0)</td>
-  <td id="sjs-H29">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-I29">0 (0)</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-J29">1 (100)</td>
-  <td id="sjs-K29">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-L29">0 (0)</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-M29">1 (100)</td>
-  <td id="sjs-N29">
-  </td>
-  <td data-t="s" data-v="1 (100)" id="sjs-O29">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-P29">0 (0)</td>
-  <td id="sjs-Q29">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="Macro localization" id="sjs-A30">Macro localization</td>
-  <td id="sjs-B30">
-  </td>
-  <td colspan="2" id="sjs-C30">
-  </td>
-  <td id="sjs-E30">
-  </td>
-  <td colspan="2" id="sjs-F30">
-  </td>
-  <td id="sjs-H30">
-  </td>
-  <td colspan="2" id="sjs-I30">
-  </td>
-  <td id="sjs-K30">
-  </td>
-  <td colspan="2" id="sjs-L30">
-  </td>
-  <td id="sjs-N30">
-  </td>
-  <td colspan="2" id="sjs-O30">
-  </td>
-  <td id="sjs-Q30">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="Proximal" id="sjs-A31">Proximal</td>
-  <td data-t="s" data-v="42 (30)" id="sjs-B31">42 (30)</td>
-  <td data-t="s" data-v="30 (71.4)" id="sjs-C31">30 (71.4)</td>
-  <td data-t="s" data-v="12 (28.6)" id="sjs-D31">12 (28.6)</td>
-  <td data-t="s" data-v="p< 0.001" id="sjs-E31">p&lt; 0.001</td>
-  <td data-t="s" data-v="40 (95.2)" id="sjs-F31">40 (95.2)</td>
-  <td data-t="s" data-v="2 (4.8)" id="sjs-G31">2 (4.8)</td>
-  <td data-t="s" data-v="p=0.003" id="sjs-H31">p=0.003</td>
-  <td data-t="s" data-v="10 (23.8)" id="sjs-I31">10 (23.8)</td>
-  <td data-t="s" data-v="32 (76.2)" id="sjs-J31">32 (76.2)</td>
-  <td data-t="s" data-v="p=0.752" id="sjs-K31">p=0.752</td>
-  <td data-t="s" data-v="4 (9.5)" id="sjs-L31">4 (9.5)</td>
-  <td data-t="s" data-v="38 (90.5)" id="sjs-M31">38 (90.5)</td>
-  <td data-t="s" data-v="p=0.070" id="sjs-N31">p=0.070</td>
-  <td data-t="s" data-v="33 (86.8)" id="sjs-O31">33 (86.8)</td>
-  <td data-t="s" data-v="5 (13.2)" id="sjs-P31">5 (13.2)</td>
-  <td data-t="s" data-v="p=0.298" id="sjs-Q31">p=0.298</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="Distal" id="sjs-A32">Distal</td>
-  <td data-t="s" data-v="88 (62.9)" id="sjs-B32">88 (62.9)</td>
-  <td data-t="s" data-v="82 (93.2)" id="sjs-C32">82 (93.2)</td>
-  <td data-t="s" data-v="6 (6.8)" id="sjs-D32">6 (6.8)</td>
-  <td id="sjs-E32">
-  </td>
-  <td data-t="s" data-v="65 (73.9)" id="sjs-F32">65 (73.9)</td>
-  <td data-t="s" data-v="23 (26.1)" id="sjs-G32">23 (26.1)</td>
-  <td id="sjs-H32">
-  </td>
-  <td data-t="s" data-v="26 (29.5)" id="sjs-I32">26 (29.5)</td>
-  <td data-t="s" data-v="62 (70.5)" id="sjs-J32">62 (70.5)</td>
-  <td id="sjs-K32">
-  </td>
-  <td data-t="s" data-v="13 (14.8)" id="sjs-L32">13 (14.8)</td>
-  <td data-t="s" data-v="75 (85.2)" id="sjs-M32">75 (85.2)</td>
-  <td id="sjs-N32">
-  </td>
-  <td data-t="s" data-v="77 (91.7)" id="sjs-O32">77 (91.7)</td>
-  <td data-t="s" data-v="7 (8.3)" id="sjs-P32">7 (8.3)</td>
-  <td id="sjs-Q32">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="all extension" id="sjs-A33">all extension</td>
-  <td data-t="s" data-v="10 (7.1)" id="sjs-B33">10 (7.1)</td>
-  <td data-t="s" data-v="6 (60)" id="sjs-C33">6 (60)</td>
-  <td data-t="s" data-v="4(40)" id="sjs-D33">4(40)</td>
-  <td id="sjs-E33">
-  </td>
-  <td data-t="s" data-v="6 (60)" id="sjs-F33">6 (60)</td>
-  <td data-t="s" data-v="4 (40)" id="sjs-G33">4 (40)</td>
-  <td id="sjs-H33">
-  </td>
-  <td data-t="s" data-v="2 (20)" id="sjs-I33">2 (20)</td>
-  <td data-t="s" data-v="8 (80)" id="sjs-J33">8 (80)</td>
-  <td id="sjs-K33">
-  </td>
-  <td data-t="s" data-v="4 (40)" id="sjs-L33">4 (40)</td>
-  <td data-t="s" data-v="6 (60)" id="sjs-M33">6 (60)</td>
-  <td id="sjs-N33">
-  </td>
-  <td data-t="s" data-v="8 (80)" id="sjs-O33">8 (80)</td>
-  <td data-t="s" data-v="2 (20)" id="sjs-P33">2 (20)</td>
-  <td id="sjs-Q33">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="(y)T grade (pathologic)" id="sjs-A34">(y)T grade (pathologic)</td>
-  <td id="sjs-B34">
-  </td>
-  <td colspan="2" id="sjs-C34">
-  </td>
-  <td id="sjs-E34">
-  </td>
-  <td colspan="2" id="sjs-F34">
-  </td>
-  <td id="sjs-H34">
-  </td>
-  <td colspan="2" id="sjs-I34">
-  </td>
-  <td id="sjs-K34">
-  </td>
-  <td colspan="2" id="sjs-L34">
-  </td>
-  <td id="sjs-N34">
-  </td>
-  <td colspan="2" id="sjs-O34">
-  </td>
-  <td id="sjs-Q34">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="T1-T2" id="sjs-A35">T1-T2</td>
-  <td data-t="s" data-v="26 (18.6)" id="sjs-B35">26 (18.6)</td>
-  <td data-t="s" data-v="24 (92.3)" id="sjs-C35">24 (92.3)</td>
-  <td data-t="s" data-v="2 (7.7)" id="sjs-D35">2 (7.7)</td>
-  <td data-t="s" data-v="p=0.369" id="sjs-E35">p=0.369</td>
-  <td data-t="s" data-v="18 (69.2)" id="sjs-F35">18 (69.2)</td>
-  <td data-t="s" data-v="8 (30.8)" id="sjs-G35">8 (30.8)</td>
-  <td data-t="s" data-v="p=0.183" id="sjs-H35">p=0.183</td>
-  <td data-t="s" data-v="6 (23.1)" id="sjs-I35">6 (23.1)</td>
-  <td data-t="s" data-v="20 (76.9)" id="sjs-J35">20 (76.9)</td>
-  <td data-t="s" data-v="p=0.807" id="sjs-K35">p=0.807</td>
-  <td data-t="s" data-v="3 (11.5)" id="sjs-L35">3 (11.5)</td>
-  <td data-t="s" data-v="23 (88.5)" id="sjs-M35">23 (88.5)</td>
-  <td data-t="s" data-v="p=0.765" id="sjs-N35">p=0.765</td>
-  <td data-t="s" data-v="24 (92.3)" id="sjs-O35">24 (92.3)</td>
-  <td data-t="s" data-v="2 (14.3)" id="sjs-P35">2 (14.3)</td>
-  <td data-t="s" data-v="p=0.736" id="sjs-Q35">p=0.736</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="T3-T4" id="sjs-A36">T3-T4</td>
-  <td data-t="s" data-v="114 (81.4)" id="sjs-B36">114 (81.4)</td>
-  <td data-t="s" data-v="94 (82.5)" id="sjs-C36">94 (82.5)</td>
-  <td data-t="s" data-v="20 (17.5)" id="sjs-D36">20 (17.5)</td>
-  <td id="sjs-E36">
-  </td>
-  <td data-t="s" data-v="93 (81.6)" id="sjs-F36">93 (81.6)</td>
-  <td data-t="s" data-v="21 (18.4)" id="sjs-G36">21 (18.4)</td>
-  <td id="sjs-H36">
-  </td>
-  <td data-t="s" data-v="32 (28.1)" id="sjs-I36">32 (28.1)</td>
-  <td data-t="s" data-v="82 (71.9)" id="sjs-J36">82 (71.9)</td>
-  <td id="sjs-K36">
-  </td>
-  <td data-t="s" data-v="18 (15.8)" id="sjs-L36">18 (15.8)</td>
-  <td data-t="s" data-v="96 (84.2)" id="sjs-M36">96 (84.2)</td>
-  <td id="sjs-N36">
-  </td>
-  <td data-t="s" data-v="94 (88.7)" id="sjs-O36">94 (88.7)</td>
-  <td data-t="s" data-v="12 (11.3)" id="sjs-P36">12 (11.3)</td>
-  <td id="sjs-Q36">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="(y) N grade (pathologic)" id="sjs-A37">(y) N grade (pathologic)</td>
-  <td id="sjs-B37">
-  </td>
-  <td colspan="2" id="sjs-C37">
-  </td>
-  <td id="sjs-E37">
-  </td>
-  <td colspan="2" id="sjs-F37">
-  </td>
-  <td id="sjs-H37">
-  </td>
-  <td colspan="2" id="sjs-I37">
-  </td>
-  <td id="sjs-K37">
-  </td>
-  <td colspan="2" id="sjs-L37">
-  </td>
-  <td id="sjs-N37">
-  </td>
-  <td colspan="2" id="sjs-O37">
-  </td>
-  <td id="sjs-Q37">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="N0" id="sjs-A38">N0</td>
-  <td data-t="s" data-v="42 (30)" id="sjs-B38">42 (30)</td>
-  <td data-t="s" data-v="33 (78.6)" id="sjs-C38">33 (78.6)</td>
-  <td data-t="s" data-v="9 (21.4)" id="sjs-D38">9 (21.4)</td>
-  <td data-t="s" data-v="p=0.150" id="sjs-E38">p=0.150</td>
-  <td data-t="s" data-v="30 (71.4)" id="sjs-F38">30 (71.4)</td>
-  <td data-t="s" data-v="12 (28.6)" id="sjs-G38">12 (28.6)</td>
-  <td data-t="s" data-v="p=0.289" id="sjs-H38">p=0.289</td>
-  <td data-t="s" data-v="8 (19)" id="sjs-I38">8 (19)</td>
-  <td data-t="s" data-v="34 (81)" id="sjs-J38">34 (81)</td>
-  <td data-t="s" data-v="p=0.120" id="sjs-K38">p=0.120</td>
-  <td data-t="s" data-v="5 (11.9)" id="sjs-L38">5 (11.9)</td>
-  <td data-t="s" data-v="37 (88.1)" id="sjs-M38">37 (88.1)</td>
-  <td data-t="s" data-v="p=0.276" id="sjs-N38">p=0.276</td>
-  <td data-t="s" data-v="37 (92.5)" id="sjs-O38">37 (92.5)</td>
-  <td data-t="s" data-v="3 (7.5)" id="sjs-P38">3 (7.5)</td>
-  <td data-t="s" data-v="p=0.667" id="sjs-Q38">p=0.667</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="N1-N2" id="sjs-A39">N1-N2</td>
-  <td data-t="s" data-v="58 (41.4)" id="sjs-B39">58 (41.4)</td>
-  <td data-t="s" data-v="53 (91.4)" id="sjs-C39">53 (91.4)</td>
-  <td data-t="s" data-v="5 (8.6)" id="sjs-D39">5 (8.6)</td>
-  <td id="sjs-E39">
-  </td>
-  <td data-t="s" data-v="47 (81)" id="sjs-F39">47 (81)</td>
-  <td data-t="s" data-v="11 (19)" id="sjs-G39">11 (19)</td>
-  <td id="sjs-H39">
-  </td>
-  <td data-t="s" data-v="21 (36.2)" id="sjs-I39">21 (36.2)</td>
-  <td data-t="s" data-v="37 (63.8)" id="sjs-J39">37 (63.8)</td>
-  <td id="sjs-K39">
-  </td>
-  <td data-t="s" data-v="12 (20.7)" id="sjs-L39">12 (20.7)</td>
-  <td data-t="s" data-v="46 (79.3)" id="sjs-M39">46 (79.3)</td>
-  <td id="sjs-N39">
-  </td>
-  <td data-t="s" data-v="49 (89.1)" id="sjs-O39">49 (89.1)</td>
-  <td data-t="s" data-v="6 (10.9)" id="sjs-P39">6 (10.9)</td>
-  <td id="sjs-Q39">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="N3" id="sjs-A40">N3</td>
-  <td data-t="s" data-v="40 (28.6)" id="sjs-B40">40 (28.6)</td>
-  <td data-t="s" data-v="32 (80)" id="sjs-C40">32 (80)</td>
-  <td data-t="s" data-v="8 (20)" id="sjs-D40">8 (20)</td>
-  <td id="sjs-E40">
-  </td>
-  <td data-t="s" data-v="34 (85)" id="sjs-F40">34 (85)</td>
-  <td data-t="s" data-v="6 (15)" id="sjs-G40">6 (15)</td>
-  <td id="sjs-H40">
-  </td>
-  <td data-t="s" data-v="9 (22.5)" id="sjs-I40">9 (22.5)</td>
-  <td data-t="s" data-v="31 (77.5)" id="sjs-J40">31 (77.5)</td>
-  <td id="sjs-K40">
-  </td>
-  <td data-t="s" data-v="4 (10)" id="sjs-L40">4 (10)</td>
-  <td data-t="s" data-v="36 (90)" id="sjs-M40">36 (90)</td>
-  <td id="sjs-N40">
-  </td>
-  <td data-t="s" data-v="32 (86.5)" id="sjs-O40">32 (86.5)</td>
-  <td data-t="s" data-v="5 (13.5)" id="sjs-P40">5 (13.5)</td>
-  <td id="sjs-Q40">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="TILs" id="sjs-A41">TILs</td>
-  <td id="sjs-B41">
-  </td>
-  <td colspan="2" id="sjs-C41">
-  </td>
-  <td id="sjs-E41">
-  </td>
-  <td colspan="2" id="sjs-F41">
-  </td>
-  <td id="sjs-H41">
-  </td>
-  <td colspan="2" id="sjs-I41">
-  </td>
-  <td id="sjs-K41">
-  </td>
-  <td colspan="2" id="sjs-L41">
-  </td>
-  <td id="sjs-N41">
-  </td>
-  <td colspan="2" id="sjs-O41">
-  </td>
-  <td id="sjs-Q41">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="absent" id="sjs-A42">absent</td>
-  <td data-t="s" data-v="1 (1)" id="sjs-B42">1 (1)</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-C42">1 (100)</td>
-  <td data-t="s" data-v="0 (100)" id="sjs-D42">0 (100)</td>
-  <td data-t="s" data-v="p=0.008" id="sjs-E42">p=0.008</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-F42">0 (0)</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-G42">1 (100)</td>
-  <td data-t="s" data-v="p=0.319" id="sjs-H42">p=0.319</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-I42">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-J42">0 (0)</td>
-  <td data-t="s" data-v="p=0.288" id="sjs-K42">p=0.288</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-L42">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-M42">0 (0)</td>
-  <td data-t="s" data-v="p=0.113" id="sjs-N42">p=0.113</td>
-  <td data-t="s" data-v="1 (100)" id="sjs-O42">1 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-P42">0 (0)</td>
-  <td data-t="s" data-v="p=0.595" id="sjs-Q42">p=0.595</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="discreet" id="sjs-A43">discreet</td>
-  <td data-t="s" data-v="48 (50)" id="sjs-B43">48 (50)</td>
-  <td data-t="s" data-v="45 (93.8)" id="sjs-C43">45 (93.8)</td>
-  <td data-t="s" data-v="3 (6.2)" id="sjs-D43">3 (6.2)</td>
-  <td id="sjs-E43">
-  </td>
-  <td data-t="s" data-v="38 (79.2)" id="sjs-F43">38 (79.2)</td>
-  <td data-t="s" data-v="10 (20.8)" id="sjs-G43">10 (20.8)</td>
-  <td id="sjs-H43">
-  </td>
-  <td data-t="s" data-v="13 (27.1)" id="sjs-I43">13 (27.1)</td>
-  <td data-t="s" data-v="35 (72.9)" id="sjs-J43">35 (72.9)</td>
-  <td id="sjs-K43">
-  </td>
-  <td data-t="s" data-v="6 (12.5)" id="sjs-L43">6 (12.5)</td>
-  <td data-t="s" data-v="42 (87.5)" id="sjs-M43">42 (87.5)</td>
-  <td id="sjs-N43">
-  </td>
-  <td data-t="s" data-v="43 (93.5)" id="sjs-O43">43 (93.5)</td>
-  <td data-t="s" data-v="3 (6.5)" id="sjs-P43">3 (6.5)</td>
-  <td id="sjs-Q43">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="moderate" id="sjs-A44">moderate</td>
-  <td data-t="s" data-v="33 (34.4)" id="sjs-B44">33 (34.4)</td>
-  <td data-t="s" data-v="29 (87.9)" id="sjs-C44">29 (87.9)</td>
-  <td data-t="s" data-v="4 (12.1)" id="sjs-D44">4 (12.1)</td>
-  <td id="sjs-E44">
-  </td>
-  <td data-t="s" data-v="27 (81.8)" id="sjs-F44">27 (81.8)</td>
-  <td data-t="s" data-v="6 (18.2)" id="sjs-G44">6 (18.2)</td>
-  <td id="sjs-H44">
-  </td>
-  <td data-t="s" data-v="7 (21.2)" id="sjs-I44">7 (21.2)</td>
-  <td data-t="s" data-v="26 (78.8)" id="sjs-J44">26 (78.8)</td>
-  <td id="sjs-K44">
-  </td>
-  <td data-t="s" data-v="2 (6.1)" id="sjs-L44">2 (6.1)</td>
-  <td data-t="s" data-v="31 (93.9)" id="sjs-M44">31 (93.9)</td>
-  <td id="sjs-N44">
-  </td>
-  <td data-t="s" data-v="27 (87.1)" id="sjs-O44">27 (87.1)</td>
-  <td data-t="s" data-v="4 (12.9)" id="sjs-P44">4 (12.9)</td>
-  <td id="sjs-Q44">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="intense" id="sjs-A45">intense</td>
-  <td data-t="s" data-v="14 (14.6)" id="sjs-B45">14 (14.6)</td>
-  <td data-t="s" data-v="8 (57.1)" id="sjs-C45">8 (57.1)</td>
-  <td data-t="s" data-v="6 (42.9)" id="sjs-D45">6 (42.9)</td>
-  <td id="sjs-E45">
-  </td>
-  <td data-t="s" data-v="10 (71.4)" id="sjs-F45">10 (71.4)</td>
-  <td data-t="s" data-v="4 (28.6)" id="sjs-G45">4 (28.6)</td>
-  <td id="sjs-H45">
-  </td>
-  <td data-t="s" data-v="2 (14.3)" id="sjs-I45">2 (14.3)</td>
-  <td data-t="s" data-v="12 (85.7)" id="sjs-J45">12 (85.7)</td>
-  <td id="sjs-K45">
-  </td>
-  <td data-t="s" data-v="2 (14.3)" id="sjs-L45">2 (14.3)</td>
-  <td data-t="s" data-v="12 (85.7)" id="sjs-M45">12 (85.7)</td>
-  <td id="sjs-N45">
-  </td>
-  <td data-t="s" data-v="12 (85.7)" id="sjs-O45">12 (85.7)</td>
-  <td data-t="s" data-v="2 (14.3)" id="sjs-P45">2 (14.3)</td>
-  <td id="sjs-Q45">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="HER-2" id="sjs-A46">HER-2</td>
-  <td id="sjs-B46">
-  </td>
-  <td colspan="2" id="sjs-C46">
-  </td>
-  <td id="sjs-E46">
-  </td>
-  <td colspan="2" id="sjs-F46">
-  </td>
-  <td id="sjs-H46">
-  </td>
-  <td colspan="2" id="sjs-I46">
-  </td>
-  <td id="sjs-K46">
-  </td>
-  <td colspan="2" id="sjs-L46">
-  </td>
-  <td id="sjs-N46">
-  </td>
-  <td colspan="2" id="sjs-O46">
-  </td>
-  <td id="sjs-Q46">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="indeterminate" id="sjs-A47">indeterminate</td>
-  <td data-t="s" data-v="2 (1.4)" id="sjs-B47">2 (1.4)</td>
-  <td data-t="s" data-v="2 (100)" id="sjs-C47">2 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-D47">0 (0)</td>
-  <td data-t="s" data-v="p=1.000" id="sjs-E47">p=1.000</td>
-  <td data-t="s" data-v="1 (50)" id="sjs-F47">1 (50)</td>
-  <td data-t="s" data-v="1 (50)" id="sjs-G47">1 (50)</td>
-  <td data-t="s" data-v="p=0.475" id="sjs-H47">p=0.475</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-I47">0 (0)</td>
-  <td data-t="s" data-v="2 (100)" id="sjs-J47">2 (100)</td>
-  <td data-t="s" data-v="p=0.064" id="sjs-K47">p=0.064</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-L47">0 (0)</td>
-  <td data-t="s" data-v="2 (100)" id="sjs-M47">2 (100)</td>
-  <td data-t="s" data-v="p=0.711" id="sjs-N47">p=0.711</td>
-  <td data-t="s" data-v="1 (50)" id="sjs-O47">1 (50)</td>
-  <td data-t="s" data-v="1 (50)" id="sjs-P47">1 (50)</td>
-  <td data-t="s" data-v="p=0.224" id="sjs-Q47">p=0.224</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="negative" id="sjs-A48">negative</td>
-  <td data-t="s" data-v="129 (92.8)" id="sjs-B48">129 (92.8)</td>
-  <td data-t="s" data-v="108 (83.7)" id="sjs-C48">108 (83.7)</td>
-  <td data-t="s" data-v="21 (16.3)" id="sjs-D48">21 (16.3)</td>
-  <td id="sjs-E48">
-  </td>
-  <td data-t="s" data-v="103 (79.8)" id="sjs-F48">103 (79.8)</td>
-  <td data-t="s" data-v="26 (20.2)" id="sjs-G48">26 (20.2)</td>
-  <td id="sjs-H48">
-  </td>
-  <td data-t="s" data-v="32 (24.8)" id="sjs-I48">32 (24.8)</td>
-  <td data-t="s" data-v="97 (75.2)" id="sjs-J48">97 (75.2)</td>
-  <td id="sjs-K48">
-  </td>
-  <td data-t="s" data-v="21 (16.3)" id="sjs-L48">21 (16.3)</td>
-  <td data-t="s" data-v="108 (83.7)" id="sjs-M48">108 (83.7)</td>
-  <td id="sjs-N48">
-  </td>
-  <td data-t="s" data-v="110 (89.4)" id="sjs-O48">110 (89.4)</td>
-  <td data-t="s" data-v="13 (10.6)" id="sjs-P48">13 (10.6)</td>
-  <td id="sjs-Q48">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="positive" id="sjs-A49">positive</td>
-  <td data-t="s" data-v="8 (5.8)" id="sjs-B49">8 (5.8)</td>
-  <td data-t="s" data-v="7 (87.5)" id="sjs-C49">7 (87.5)</td>
-  <td data-t="s" data-v="1 (12.5)" id="sjs-D49">1 (12.5)</td>
-  <td id="sjs-E49">
-  </td>
-  <td data-t="s" data-v="6 (75)" id="sjs-F49">6 (75)</td>
-  <td data-t="s" data-v="2 (25)" id="sjs-G49">2 (25)</td>
-  <td id="sjs-H49">
-  </td>
-  <td data-t="s" data-v="5 (62.5)" id="sjs-I49">5 (62.5)</td>
-  <td data-t="s" data-v="3 (37.5)" id="sjs-J49">3 (37.5)</td>
-  <td id="sjs-K49">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-L49">0 (0)</td>
-  <td data-t="s" data-v="8 (100)" id="sjs-M49">8 (100)</td>
-  <td id="sjs-N49">
-  </td>
-  <td data-t="s" data-v="7 (100)" id="sjs-O49">7 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-P49">0 (0)</td>
-  <td id="sjs-Q49">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="Neoadjuvance" id="sjs-A50">Neoadjuvance</td>
-  <td id="sjs-B50">
-  </td>
-  <td colspan="2" id="sjs-C50">
-  </td>
-  <td id="sjs-E50">
-  </td>
-  <td colspan="2" id="sjs-F50">
-  </td>
-  <td id="sjs-H50">
-  </td>
-  <td colspan="2" id="sjs-I50">
-  </td>
-  <td id="sjs-K50">
-  </td>
-  <td colspan="2" id="sjs-L50">
-  </td>
-  <td id="sjs-N50">
-  </td>
-  <td colspan="2" id="sjs-O50">
-  </td>
-  <td id="sjs-Q50">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="no" id="sjs-A51">no</td>
-  <td data-t="s" data-v="66 (47.1)" id="sjs-B51">66 (47.1)</td>
-  <td data-t="s" data-v="58 (87.9)" id="sjs-C51">58 (87.9)</td>
-  <td data-t="s" data-v="8 (12.1)" id="sjs-D51">8 (12.1)</td>
-  <td data-t="s" data-v="p=0.384" id="sjs-E51">p=0.384</td>
-  <td data-t="s" data-v="50 (75.8)" id="sjs-F51">50 (75.8)</td>
-  <td data-t="s" data-v="16 (24.2)" id="sjs-G51">16 (24.2)</td>
-  <td data-t="s" data-v="p=0.445" id="sjs-H51">p=0.445</td>
-  <td data-t="s" data-v="19 (28.8)" id="sjs-I51">19 (28.8)</td>
-  <td data-t="s" data-v="47 (71.2)" id="sjs-J51">47 (71.2)</td>
-  <td data-t="s" data-v="p=0.824" id="sjs-K51">p=0.824</td>
-  <td data-t="s" data-v="6 (9.1)" id="sjs-L51">6 (9.1)</td>
-  <td data-t="s" data-v="60 (90.9)" id="sjs-M51">60 (90.9)</td>
-  <td data-t="s" data-v="p=0.107" id="sjs-N51">p=0.107</td>
-  <td data-t="s" data-v="57 (90.5)" id="sjs-O51">57 (90.5)</td>
-  <td data-t="s" data-v="6 (9.5)" id="sjs-P51">6 (9.5)</td>
-  <td data-t="s" data-v="p=0.782" id="sjs-Q51">p=0.782</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="yes" id="sjs-A52">yes</td>
-  <td data-t="s" data-v="74 (52.9)" id="sjs-B52">74 (52.9)</td>
-  <td data-t="s" data-v="60 (81.1)" id="sjs-C52">60 (81.1)</td>
-  <td data-t="s" data-v="14 (18.9)" id="sjs-D52">14 (18.9)</td>
-  <td id="sjs-E52">
-  </td>
-  <td data-t="s" data-v="61 (82.4)" id="sjs-F52">61 (82.4)</td>
-  <td data-t="s" data-v="13 (17.6)" id="sjs-G52">13 (17.6)</td>
-  <td id="sjs-H52">
-  </td>
-  <td data-t="s" data-v="19 (25.7)" id="sjs-I52">19 (25.7)</td>
-  <td data-t="s" data-v="55 (74.3)" id="sjs-J52">55 (74.3)</td>
-  <td id="sjs-K52">
-  </td>
-  <td data-t="s" data-v="15 (20.3)" id="sjs-L52">15 (20.3)</td>
-  <td data-t="s" data-v="59 (79.7)" id="sjs-M52">59 (79.7)</td>
-  <td id="sjs-N52">
-  </td>
-  <td data-t="s" data-v="61 (88.4)" id="sjs-O52">61 (88.4)</td>
-  <td data-t="s" data-v="8 (11.6)" id="sjs-P52">8 (11.6)</td>
-  <td id="sjs-Q52">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="CPS PD-L1 2" id="sjs-A53">CPS PD-L1 <span style="font-size:11pt;">
-    <sup>2</sup>
-  </span>
-</td>
-<td id="sjs-B53">
-</td>
-<td id="sjs-C53">
-</td>
-<td id="sjs-D53">
-</td>
-<td id="sjs-E53">
-</td>
-<td id="sjs-F53">
-</td>
-<td id="sjs-G53">
-</td>
-<td id="sjs-H53">
-</td>
-<td id="sjs-I53">
-</td>
-<td id="sjs-J53">
-</td>
-<td id="sjs-K53">
-</td>
-<td id="sjs-L53">
-</td>
-<td id="sjs-M53">
-</td>
-<td id="sjs-N53">
-</td>
-<td id="sjs-O53">
-</td>
-<td id="sjs-P53">
-</td>
-<td id="sjs-Q53">
-</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="<1" id="sjs-A54">&lt;1</td>
-  <td data-t="s" data-v="12 (46.2)" id="sjs-B54">12 (46.2)</td>
-  <td data-t="s" data-v="10 (83.3)" id="sjs-C54">10 (83.3)</td>
-  <td data-t="s" data-v="2 (16.7)" id="sjs-D54">2 (16.7)</td>
-  <td data-t="s" data-v="p=0.232" id="sjs-E54">p=0.232</td>
-  <td data-t="s" data-v="7 (58.3)" id="sjs-F54">7 (58.3)</td>
-  <td data-t="s" data-v="5 (41.7)" id="sjs-G54">5 (41.7)</td>
-  <td data-t="s" data-v="p=0.360" id="sjs-H54">p=0.360</td>
-  <td data-t="s" data-v="4 (33.3)" id="sjs-I54">4 (33.3)</td>
-  <td data-t="s" data-v="8 (66.7)" id="sjs-J54">8 (66.7)</td>
-  <td data-t="s" data-v="p=1.000" id="sjs-K54">p=1.000</td>
-  <td data-t="s" data-v="3 (25)" id="sjs-L54">3 (25)</td>
-  <td data-t="s" data-v="9 (75)" id="sjs-M54">9 (75)</td>
-  <td data-t="s" data-v="p=1.000" id="sjs-N54">p=1.000</td>
-  <td data-t="s" data-v="12 (100)" id="sjs-O54">12 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-P54">0 (0)</td>
-  <td data-t="s" data-v="p< 0.001" id="sjs-Q54">p&lt; 0.001</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="≥1 and < 10" id="sjs-A55">
-    <span style="font-size:10pt;">≥</span>
-    <span style="font-size:10pt;">
-      <i>1 and < 10</i>
-    </span>
-  </td>
-  <td data-t="s" data-v="12 (46.2)" id="sjs-B55">12 (46.2)</td>
-  <td data-t="s" data-v="6 (50)" id="sjs-C55">6 (50)</td>
-  <td data-t="s" data-v="6 (50)" id="sjs-D55">6 (50)</td>
-  <td id="sjs-E55">
-  </td>
-  <td data-t="s" data-v="10 (83.3)" id="sjs-F55">10 (83.3)</td>
-  <td data-t="s" data-v="2 (16.7)" id="sjs-G55">2 (16.7)</td>
-  <td id="sjs-H55">
-  </td>
-  <td data-t="s" data-v="4 (33.3)" id="sjs-I55">4 (33.3)</td>
-  <td data-t="s" data-v="8 (66.7)" id="sjs-J55">8 (66.7)</td>
-  <td id="sjs-K55">
-  </td>
-  <td data-t="s" data-v="2 (16.7)" id="sjs-L55">2 (16.7)</td>
-  <td data-t="s" data-v="10 (83.3)" id="sjs-M55">10 (83.3)</td>
-  <td id="sjs-N55">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-O55">0 (0)</td>
-  <td data-t="s" data-v="12 (100)" id="sjs-P55">12 (100)</td>
-  <td id="sjs-Q55">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="≥10" id="sjs-A56">
-    <span style="font-size:10pt;">≥</span>
-    <span style="font-size:10pt;">
-      <i>10</i>
-    </span>
-  </td>
-  <td data-t="s" data-v="2 (7.7)" id="sjs-B56">2 (7.7)</td>
-  <td data-t="s" data-v="1 (50)" id="sjs-C56">1 (50)</td>
-  <td data-t="s" data-v="1 (50)" id="sjs-D56">1 (50)</td>
-  <td id="sjs-E56">
-  </td>
-  <td data-t="s" data-v="1 (50)" id="sjs-F56">1 (50)</td>
-  <td data-t="s" data-v="1 (50)" id="sjs-G56">1 (50)</td>
-  <td id="sjs-H56">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-I56">0 (0)</td>
-  <td data-t="s" data-v="2 (100)" id="sjs-J56">2 (100)</td>
-  <td id="sjs-K56">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-L56">0 (0)</td>
-  <td data-t="s" data-v="2 (100)" id="sjs-M56">2 (100)</td>
-  <td id="sjs-N56">
-  </td>
-  <td data-t="s" data-v="0 (0)" id="sjs-O56">0 (0)</td>
-  <td data-t="s" data-v="2 (100)" id="sjs-P56">2 (100)</td>
-  <td id="sjs-Q56">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="Tumour response grade 3" id="sjs-A57">Tumour response grade<span style="font-size:11pt;">
-    <sup> 3</sup>
-  </span>
-</td>
-<td id="sjs-B57">
-</td>
-<td colspan="2" id="sjs-C57">
-</td>
-<td id="sjs-E57">
-</td>
-<td colspan="2" id="sjs-F57">
-</td>
-<td id="sjs-H57">
-</td>
-<td colspan="2" id="sjs-I57">
-</td>
-<td id="sjs-K57">
-</td>
-<td colspan="2" id="sjs-L57">
-</td>
-<td id="sjs-N57">
-</td>
-<td colspan="2" id="sjs-O57">
-</td>
-<td id="sjs-Q57">
-</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="score 1" id="sjs-A58">score 1</td>
-  <td data-t="s" data-v="4 (5.4)" id="sjs-B58">4 (5.4)</td>
-  <td data-t="s" data-v="4 (100)" id="sjs-C58">4 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-D58">0 (0)</td>
-  <td data-t="s" data-v="p=0.880" id="sjs-E58">p=0.880</td>
-  <td data-t="s" data-v="2 (50)" id="sjs-F58">2 (50)</td>
-  <td data-t="s" data-v="2 (50)" id="sjs-G58">2 (50)</td>
-  <td data-t="s" data-v="p=0.191" id="sjs-H58">p=0.191</td>
-  <td data-t="s" data-v="1 (25)" id="sjs-I58">1 (25)</td>
-  <td data-t="s" data-v="3 (75)" id="sjs-J58">3 (75)</td>
-  <td data-t="s" data-v="p=0.893" id="sjs-K58">p=0.893</td>
-  <td data-t="s" data-v="1 (25)" id="sjs-L58">1 (25)</td>
-  <td data-t="s" data-v="3 (75)" id="sjs-M58">3 (75)</td>
-  <td data-t="s" data-v="p=0.591" id="sjs-N58">p=0.591</td>
-  <td data-t="s" data-v="2 (66.7)" id="sjs-O58">2 (66.7)</td>
-  <td data-t="s" data-v="1 (33.3)" id="sjs-P58">1 (33.3)</td>
-  <td data-t="s" data-v="p=0.174" id="sjs-Q58">p=0.174</td>
-</tr>
-<tr>
-  <td data-t="s" data-v="score 2" id="sjs-A59">score 2</td>
-  <td data-t="s" data-v="17 (23)" id="sjs-B59">17 (23)</td>
-  <td data-t="s" data-v="14 (82.4)" id="sjs-C59">14 (82.4)</td>
-  <td data-t="s" data-v="3 (17.6)" id="sjs-D59">3 (17.6)</td>
-  <td id="sjs-E59">
-  </td>
-  <td data-t="s" data-v="14 (82.4)" id="sjs-F59">14 (82.4)</td>
-  <td data-t="s" data-v="3 (17.6)" id="sjs-G59">3 (17.6)</td>
-  <td id="sjs-H59">
-  </td>
-  <td data-t="s" data-v="5 (29.4)" id="sjs-I59">5 (29.4)</td>
-  <td data-t="s" data-v="12 (70.6)" id="sjs-J59">12 (70.6)</td>
-  <td id="sjs-K59">
-  </td>
-  <td data-t="s" data-v="2 (11.8)" id="sjs-L59">2 (11.8)</td>
-  <td data-t="s" data-v="15 (88.2)" id="sjs-M59">15 (88.2)</td>
-  <td id="sjs-N59">
-  </td>
-  <td data-t="s" data-v="15 (100)" id="sjs-O59">15 (100)</td>
-  <td data-t="s" data-v="0 (0)" id="sjs-P59">0 (0)</td>
-  <td id="sjs-Q59">
-  </td>
-</tr>
-<tr>
-  <td data-t="s" data-v="score 3" id="sjs-A60">score 3</td>
-  <td data-t="s" data-v="53 (71.6)" id="sjs-B60">53 (71.6)</td>
-  <td data-t="s" data-v="42 (79.2)" id="sjs-C60">42 (79.2)</td>
-  <td data-t="s" data-v="11 (20.8)" id="sjs-D60">11 (20.8)</td>
-  <td id="sjs-E60">
-  </td>
-  <td data-t="s" data-v="45 (84.9)" id="sjs-F60">45 (84.9)</td>
-  <td data-t="s" data-v="8 (25.1)" id="sjs-G60">8 (25.1)</td>
-  <td id="sjs-H60">
-  </td>
-  <td data-t="s" data-v="13 (24.5)" id="sjs-I60">13 (24.5)</td>
-  <td data-t="s" data-v="40 (75.5)" id="sjs-J60">40 (75.5)</td>
-  <td id="sjs-K60">
-  </td>
-  <td data-t="s" data-v="12 (22.6)" id="sjs-L60">12 (22.6)</td>
-  <td data-t="s" data-v="41 (77.4)" id="sjs-M60">41 (77.4)</td>
-  <td id="sjs-N60">
-  </td>
-  <td data-t="s" data-v="44 (86.3)" id="sjs-O60">44 (86.3)</td>
-  <td data-t="s" data-v="7 (13.7)" id="sjs-P60">7 (13.7)</td>
-  <td id="sjs-Q60">
-  </td>
-</tr>
-<tr>
-  <td colspan="17" data-t="s" data-v="1 p-value of Fisher's Chi-square. TILs: Tumor-infiltrating lymphocytes. EBER, EBV probe. Mt: p53 mutante type. Wt: p53 wild type. 2 Only in cases with PD-L1 positive. 3 Only in cases with neoadjuvance." id="sjs-A61">
-    <span style="font-size:11pt;">
-      <i>
-        <sup>1</i>
-      </sup>
-    </span>
-    <span style="font-size:11pt;">
-      <i> p-value of Fisher's Chi-square. TILs: Tumor-infiltrating lymphocytes. EBER, EBV probe. Mt: p53 mutante type. Wt: p53 wild type. </i>
-    </span>
-    <span style="font-size:11pt;">
-      <i>
-        <sup>2</i>
-      </sup>
-    </span>
-    <span style="font-size:11pt;">
-      <i> Only in cases with PD-L1 positive. </i>
-    </span>
-    <span style="font-size:11pt;">
-      <i>
-        <sup>3</i>
-      </sup>
-    </span>
-    <span style="font-size:11pt;">
-      <i> Only in cases with neoadjuvance.</i>
-    </span>
-  </td>
-</tr>
-</table>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 1 - Clinical Pathologic Features</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .table-container {
+            overflow-x: auto;
+            margin: 20px 0;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            min-width: 1300px;
+            font-size: 0.75em;
+        }
+        
+        caption {
+            font-weight: bold;
+            font-size: 1.3em;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            caption-side: top;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+        
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 6px 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+        th {
+            background-color: #34495e;
+            color: white;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+        
+        .sub-header {
+            background-color: #4a6b8a;
+            font-weight: 500;
+        }
+        
+        .marker-header {
+            background-color: #5d6d7e;
+            font-size: 0.8em;
+        }
+        
+        .row-header {
+            background-color: #ecf0f1;
+            font-weight: 600;
+            text-align: left;
+            color: #2c3e50;
+        }
+        
+        .sub-row-header {
+            background-color: #f8f9fa;
+            text-align: left;
+            padding-left: 15px;
+        }
+        
+        .category-header {
+            background-color: #d6eaf8;
+            font-weight: 700;
+            text-align: left;
+        }
+        
+        .p-value-significant {
+            color: #e74c3c;
+            font-weight: 600;
+            font-style: italic;
+        }
+        
+        .p-value-borderline {
+            color: #e67e22;
+            font-weight: 500;
+            font-style: italic;
+        }
+        
+        .footnote {
+            font-size: 0.75em;
+            color: #6c757d;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #6c757d;
+            line-height: 1.4;
+        }
+        
+        .total-row {
+            background-color: #e8f4f8;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+            
+            th, td {
+                padding: 4px 6px;
+                font-size: 0.7em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="table-container">
+            <table>
+                <caption>Table 1. Clinical pathologic features</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="3">Characteristic</th>
+                        <th rowspan="3">All, n (%)</th>
+                        <th colspan="4">EBER</th>
+                        <th colspan="5">MMR</th>
+                        <th colspan="5">P53</th>
+                        <th colspan="5">E-cadherin</th>
+                        <th colspan="5">PD-L1</th>
+                    </tr>
+                    <tr class="sub-header">
+                        <!-- EBER -->
+                        <th colspan="2">negative</th>
+                        <th colspan="2">positive</th>
+                        <!-- MMR -->
+                        <th colspan="2">stable</th>
+                        <th colspan="2">unstable</th>
+                        <th rowspan="2">p¹</th>
+                        <!-- P53 -->
+                        <th colspan="2">mt</th>
+                        <th colspan="2">wt</th>
+                        <th rowspan="2">p¹</th>
+                        <!-- E-cadherin -->
+                        <th colspan="2">negative</th>
+                        <th colspan="2">positive</th>
+                        <th rowspan="2">p¹</th>
+                        <!-- PD-L1 -->
+                        <th colspan="2">negative</th>
+                        <th colspan="2">positive</th>
+                        <th rowspan="2">p¹</th>
+                    </tr>
+                    <tr class="marker-header">
+                        <!-- EBER -->
+                        <th>n</th><th>%</th>
+                        <th>n</th><th>%</th>
+                        <!-- MMR -->
+                        <th>n</th><th>%</th>
+                        <th>n</th><th>%</th>
+                        <!-- P53 -->
+                        <th>n</th><th>%</th>
+                        <th>n</th><th>%</th>
+                        <!-- E-cadherin -->
+                        <th>n</th><th>%</th>
+                        <th>n</th><th>%</th>
+                        <!-- PD-L1 -->
+                        <th>n</th><th>%</th>
+                        <th>n</th><th>%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Total Row -->
+                    <tr class="total-row">
+                        <td class="row-header"></td>
+                        <td>140 (100)</td>
+                        <td colspan="4">140/140 (%)</td>
+                        <td colspan="5">140/140 (%)</td>
+                        <td colspan="5">140/140 (%)</td>
+                        <td colspan="5">140/140 (%)</td>
+                        <td colspan="5">132/140 (%)</td>
+                    </tr>
+
+                    <!-- Age -->
+                    <tr class="category-header">
+                        <td class="row-header">Age</td>
+                        <td></td>
+                        <td>118</td><td>84.3</td>
+                        <td>22</td><td>15.7</td>
+                        <td>111</td><td>79.3</td>
+                        <td>29</td><td>20.7</td>
+                        <td></td>
+                        <td>38</td><td>27.1</td>
+                        <td>102</td><td>72.9</td>
+                        <td></td>
+                        <td>21</td><td>15</td>
+                        <td>119</td><td>85</td>
+                        <td></td>
+                        <td>118</td><td>89.4</td>
+                        <td>14</td><td>10.6</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-ro
+
+  
+ 
