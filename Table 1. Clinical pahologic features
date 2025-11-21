@@ -225,7 +225,1030 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="sub-ro
+                        <td class="sub-row-header">&gt; 63</td>
+                        <td>66 (47.1)</td>
+                        <td>59</td><td>50</td>
+                        <td>7</td><td>31.8</td>
+                        <td>50</td><td>75.8</td>
+                        <td>16</td><td>24.2</td>
+                        <td class="p-value-borderline">p=0.182</td>
+                        <td>18</td><td>27.3</td>
+                        <td>48</td><td>72.7</td>
+                        <td class="p-value-borderline">p=1.000</td>
+                        <td>9</td><td>13.6</td>
+                        <td>57</td><td>86.4</td>
+                        <td class="p-value-borderline">p=0.850</td>
+                        <td>55</td><td>88.7</td>
+                        <td>7</td><td>11.3</td>
+                        <td class="p-value-borderline">p=1.000</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">≤ 63</td>
+                        <td>74 (52.9)</td>
+                        <td>59</td><td>79.7</td>
+                        <td>15</td><td>20.3</td>
+                        <td>61</td><td>82.4</td>
+                        <td>13</td><td>17.6</td>
+                        <td></td>
+                        <td>20</td><td>27</td>
+                        <td>54</td><td>73</td>
+                        <td></td>
+                        <td>12</td><td>16.2</td>
+                        <td>62</td><td>83.8</td>
+                        <td></td>
+                        <td>63</td><td>90</td>
+                        <td>7</td><td>10</td>
+                        <td></td>
+                    </tr>
 
-  
- 
+                    <!-- Gender -->
+                    <tr class="category-header">
+                        <td class="row-header">Gender</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">female</td>
+                        <td>41 (29.3)</td>
+                        <td>37</td><td>90.2</td>
+                        <td>4</td><td>9.8</td>
+                        <td>35</td><td>85.4</td>
+                        <td>6</td><td>14.6</td>
+                        <td class="p-value-borderline">p=0.308</td>
+                        <td>9</td><td>22</td>
+                        <td>32</td><td>78</td>
+                        <td class="p-value-borderline">p=0.496</td>
+                        <td>8</td><td>19.5</td>
+                        <td>33</td><td>80.5</td>
+                        <td class="p-value-borderline">p=0.435</td>
+                        <td>37</td><td>94.9</td>
+                        <td>2</td><td>5.1</td>
+                        <td class="p-value-borderline">p=0.230</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">male</td>
+                        <td>99 (70.7)</td>
+                        <td>81</td><td>81.8</td>
+                        <td>18</td><td>18.2</td>
+                        <td>76</td><td>76.8</td>
+                        <td>23</td><td>23.2</td>
+                        <td></td>
+                        <td>29</td><td>23.3</td>
+                        <td>70</td><td>70.7</td>
+                        <td></td>
+                        <td>13</td><td>13.1</td>
+                        <td>86</td><td>86.9</td>
+                        <td></td>
+                        <td>81</td><td>87.1</td>
+                        <td>12</td><td>12.9</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- Lauren Classification -->
+                    <tr class="category-header">
+                        <td class="row-header">Lauren</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">intestinal</td>
+                        <td>82 (58.6)</td>
+                        <td>65</td><td>70.3</td>
+                        <td>17</td><td>20.7</td>
+                        <td>62</td><td>75.6</td>
+                        <td>20</td><td>24.4</td>
+                        <td class="p-value-significant">p=0.001</td>
+                        <td>26</td><td>31.7</td>
+                        <td>56</td><td>68.3</td>
+                        <td class="p-value-borderline">p=0.339</td>
+                        <td>4</td><td>4.9</td>
+                        <td>78</td><td>95.1</td>
+                        <td class="p-value-significant">p&lt; 0.001</td>
+                        <td>66</td><td>84.6</td>
+                        <td>12</td><td>15.4</td>
+                        <td class="p-value-significant">p=0.028</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">diffuse</td>
+                        <td>39 (27.9)</td>
+                        <td>38</td><td>97.4</td>
+                        <td>1</td><td>2.6</td>
+                        <td>35</td><td>89.7</td>
+                        <td>4</td><td>10.3</td>
+                        <td></td>
+                        <td>10</td><td>25.6</td>
+                        <td>29</td><td>74.4</td>
+                        <td></td>
+                        <td>16</td><td>41</td>
+                        <td>23</td><td>59</td>
+                        <td></td>
+                        <td>35</td><td>97.2</td>
+                        <td>1</td><td>2.8</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">mixed</td>
+                        <td>17 (12.1)</td>
+                        <td>15</td><td>88.2</td>
+                        <td>2</td><td>11.8</td>
+                        <td>12</td><td>70.6</td>
+                        <td>5</td><td>29.4</td>
+                        <td></td>
+                        <td>2</td><td>11.8</td>
+                        <td>15</td><td>88.2</td>
+                        <td></td>
+                        <td>1</td><td>5.9</td>
+                        <td>16</td><td>94.1</td>
+                        <td></td>
+                        <td>16</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">indeterminate/other</td>
+                        <td>2 (1.4)</td>
+                        <td>0</td><td>0</td>
+                        <td>2</td><td>100</td>
+                        <td>2</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>2</td><td>100</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>2</td><td>100</td>
+                        <td></td>
+                        <td>1</td><td>50</td>
+                        <td>1</td><td>50</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- Differentiated Grade -->
+                    <tr class="category-header">
+                        <td class="row-header">Differentiated grade</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">moderately differentiated</td>
+                        <td>51 (55.4)</td>
+                        <td>46</td><td>90.2</td>
+                        <td>5</td><td>9.8</td>
+                        <td>36</td><td>70.6</td>
+                        <td>15</td><td>29.4</td>
+                        <td class="p-value-significant">p=0.006</td>
+                        <td>21</td><td>41.2</td>
+                        <td>30</td><td>58.8</td>
+                        <td class="p-value-significant">p=0.002</td>
+                        <td>2</td><td>3.9</td>
+                        <td>49</td><td>96.1</td>
+                        <td class="p-value-borderline">p=0.658</td>
+                        <td>41</td><td>83.7</td>
+                        <td>8</td><td>16.3</td>
+                        <td class="p-value-borderline">p=0.801</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">poorly differentiated</td>
+                        <td>40 (43.5)</td>
+                        <td>26</td><td>65</td>
+                        <td>14</td><td>35</td>
+                        <td>31</td><td>77.5</td>
+                        <td>9</td><td>22.5</td>
+                        <td></td>
+                        <td>5</td><td>12.5</td>
+                        <td>35</td><td>87.5</td>
+                        <td></td>
+                        <td>3</td><td>7.5</td>
+                        <td>37</td><td>92.5</td>
+                        <td></td>
+                        <td>33</td><td>86.8</td>
+                        <td>5</td><td>13.2</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">Well differentiated</td>
+                        <td>1 (1.1)</td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>1</td><td>100</td>
+                        <td></td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- Topography -->
+                    <tr class="category-header">
+                        <td class="row-header">Topography</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">GEJ/Cardia</td>
+                        <td>11 (7.9)</td>
+                        <td>9</td><td>81.8</td>
+                        <td>2</td><td>18.2</td>
+                        <td>10</td><td>90.9</td>
+                        <td>1</td><td>9.1</td>
+                        <td class="p-value-significant">p=0.015</td>
+                        <td>3</td><td>27.3</td>
+                        <td>8</td><td>72.7</td>
+                        <td class="p-value-borderline">p=0.763</td>
+                        <td>0</td><td>0</td>
+                        <td>11</td><td>100</td>
+                        <td class="p-value-significant">p=0.009</td>
+                        <td>9</td><td>90</td>
+                        <td>1</td><td>10</td>
+                        <td class="p-value-borderline">p=0.744</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">fundus</td>
+                        <td>1 (0.7)</td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>1</td><td>100</td>
+                        <td></td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">body</td>
+                        <td>30 (21.4)</td>
+                        <td>20</td><td>66.7</td>
+                        <td>10</td><td>33.3</td>
+                        <td>29</td><td>96.7</td>
+                        <td>1</td><td>3.3</td>
+                        <td></td>
+                        <td>6</td><td>20</td>
+                        <td>24</td><td>80</td>
+                        <td></td>
+                        <td>4</td><td>13.3</td>
+                        <td>26</td><td>86.7</td>
+                        <td></td>
+                        <td>23</td><td>85.2</td>
+                        <td>4</td><td>14.8</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">body e antrum</td>
+                        <td>14 (10)</td>
+                        <td>13</td><td>92.9</td>
+                        <td>1</td><td>7.1</td>
+                        <td>7</td><td>50</td>
+                        <td>7</td><td>50</td>
+                        <td></td>
+                        <td>5</td><td>35.7</td>
+                        <td>9</td><td>64.3</td>
+                        <td></td>
+                        <td>3</td><td>21.4</td>
+                        <td>11</td><td>78.6</td>
+                        <td></td>
+                        <td>12</td><td>92.3</td>
+                        <td>1</td><td>7.7</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">antrum</td>
+                        <td>40 (28.6)</td>
+                        <td>37</td><td>92.5</td>
+                        <td>3</td><td>7.5</td>
+                        <td>32</td><td>80</td>
+                        <td>8</td><td>20</td>
+                        <td></td>
+                        <td>10</td><td>25</td>
+                        <td>30</td><td>75</td>
+                        <td></td>
+                        <td>10</td><td>25</td>
+                        <td>30</td><td>75</td>
+                        <td></td>
+                        <td>36</td><td>94.7</td>
+                        <td>2</td><td>5.3</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">antrum e pylorus</td>
+                        <td>26 (18.6)</td>
+                        <td>24</td><td>92.3</td>
+                        <td>2</td><td>7.7</td>
+                        <td>21</td><td>80.8</td>
+                        <td>5</td><td>19.2</td>
+                        <td></td>
+                        <td>8</td><td>30.8</td>
+                        <td>18</td><td>69.2</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>26</td><td>100</td>
+                        <td></td>
+                        <td>22</td><td>88</td>
+                        <td>3</td><td>12</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">pylorus</td>
+                        <td>8 (5.7)</td>
+                        <td>8</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td>5</td><td>62.5</td>
+                        <td>3</td><td>37.5</td>
+                        <td></td>
+                        <td>3</td><td>37.5</td>
+                        <td>5</td><td>62.5</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>8</td><td>100</td>
+                        <td></td>
+                        <td>7</td><td>87.5</td>
+                        <td>1</td><td>12.5</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">all stomach</td>
+                        <td>9 (6.4)</td>
+                        <td>6</td><td>66.7</td>
+                        <td>3</td><td>33.3</td>
+                        <td>5</td><td>55.6</td>
+                        <td>4</td><td>44.4</td>
+                        <td></td>
+                        <td>2</td><td>22.2</td>
+                        <td>7</td><td>77.8</td>
+                        <td></td>
+                        <td>4</td><td>44.4</td>
+                        <td>5</td><td>55.6</td>
+                        <td></td>
+                        <td>7</td><td>77.8</td>
+                        <td>2</td><td>22.2</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">other</td>
+                        <td>1 (0.7)</td>
+                        <td>0</td><td>0</td>
+                        <td>1</td><td>100</td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>1</td><td>100</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>1</td><td>100</td>
+                        <td></td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- Macro localization -->
+                    <tr class="category-header">
+                        <td class="row-header">Macro localization</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">Proximal</td>
+                        <td>42 (30)</td>
+                        <td>30</td><td>71.4</td>
+                        <td>12</td><td>28.6</td>
+                        <td>40</td><td>95.2</td>
+                        <td>2</td><td>4.8</td>
+                        <td class="p-value-significant">p&lt; 0.001</td>
+                        <td>10</td><td>23.8</td>
+                        <td>32</td><td>76.2</td>
+                        <td class="p-value-borderline">p=0.752</td>
+                        <td>4</td><td>9.5</td>
+                        <td>38</td><td>90.5</td>
+                        <td class="p-value-borderline">p=0.070</td>
+                        <td>33</td><td>86.8</td>
+                        <td>5</td><td>13.2</td>
+                        <td class="p-value-borderline">p=0.298</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">Distal</td>
+                        <td>88 (62.9)</td>
+                        <td>82</td><td>93.2</td>
+                        <td>6</td><td>6.8</td>
+                        <td>65</td><td>73.9</td>
+                        <td>23</td><td>26.1</td>
+                        <td></td>
+                        <td>26</td><td>29.5</td>
+                        <td>62</td><td>70.5</td>
+                        <td></td>
+                        <td>13</td><td>14.8</td>
+                        <td>75</td><td>85.2</td>
+                        <td></td>
+                        <td>77</td><td>91.7</td>
+                        <td>7</td><td>8.3</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">all extension</td>
+                        <td>10 (7.1)</td>
+                        <td>6</td><td>60</td>
+                        <td>4</td><td>40</td>
+                        <td>6</td><td>60</td>
+                        <td>4</td><td>40</td>
+                        <td></td>
+                        <td>2</td><td>20</td>
+                        <td>8</td><td>80</td>
+                        <td></td>
+                        <td>4</td><td>40</td>
+                        <td>6</td><td>60</td>
+                        <td></td>
+                        <td>8</td><td>80</td>
+                        <td>2</td><td>20</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- (y)T grade (pathologic) -->
+                    <tr class="category-header">
+                        <td class="row-header">(y)T grade (pathologic)</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">T1-T2</td>
+                        <td>26 (18.6)</td>
+                        <td>24</td><td>92.3</td>
+                        <td>2</td><td>7.7</td>
+                        <td>18</td><td>69.2</td>
+                        <td>8</td><td>30.8</td>
+                        <td class="p-value-borderline">p=0.369</td>
+                        <td>6</td><td>23.1</td>
+                        <td>20</td><td>76.9</td>
+                        <td class="p-value-borderline">p=0.807</td>
+                        <td>3</td><td>11.5</td>
+                        <td>23</td><td>88.5</td>
+                        <td class="p-value-borderline">p=0.765</td>
+                        <td>24</td><td>92.3</td>
+                        <td>2</td><td>14.3</td>
+                        <td class="p-value-borderline">p=0.736</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">T3-T4</td>
+                        <td>114 (81.4)</td>
+                        <td>94</td><td>82.5</td>
+                        <td>20</td><td>17.5</td>
+                        <td>93</td><td>81.6</td>
+                        <td>21</td><td>18.4</td>
+                        <td></td>
+                        <td>32</td><td>28.1</td>
+                        <td>82</td><td>71.9</td>
+                        <td></td>
+                        <td>18</td><td>15.8</td>
+                        <td>96</td><td>84.2</td>
+                        <td></td>
+                        <td>94</td><td>88.7</td>
+                        <td>12</td><td>11.3</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- (y) N grade (pathologic) -->
+                    <tr class="category-header">
+                        <td class="row-header">(y) N grade (pathologic)</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">N0</td>
+                        <td>42 (30)</td>
+                        <td>33</td><td>78.6</td>
+                        <td>9</td><td>21.4</td>
+                        <td>30</td><td>71.4</td>
+                        <td>12</td><td>28.6</td>
+                        <td class="p-value-borderline">p=0.150</td>
+                        <td>8</td><td>19</td>
+                        <td>34</td><td>81</td>
+                        <td class="p-value-borderline">p=0.120</td>
+                        <td>5</td><td>11.9</td>
+                        <td>37</td><td>88.1</td>
+                        <td class="p-value-borderline">p=0.276</td>
+                        <td>37</td><td>92.5</td>
+                        <td>3</td><td>7.5</td>
+                        <td class="p-value-borderline">p=0.667</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">N1-N2</td>
+                        <td>58 (41.4)</td>
+                        <td>53</td><td>91.4</td>
+                        <td>5</td><td>8.6</td>
+                        <td>47</td><td>81</td>
+                        <td>11</td><td>19</td>
+                        <td></td>
+                        <td>21</td><td>36.2</td>
+                        <td>37</td><td>63.8</td>
+                        <td></td>
+                        <td>12</td><td>20.7</td>
+                        <td>46</td><td>79.3</td>
+                        <td></td>
+                        <td>49</td><td>89.1</td>
+                        <td>6</td><td>10.9</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">N3</td>
+                        <td>40 (28.6)</td>
+                        <td>32</td><td>80</td>
+                        <td>8</td><td>20</td>
+                        <td>34</td><td>85</td>
+                        <td>6</td><td>15</td>
+                        <td></td>
+                        <td>9</td><td>22.5</td>
+                        <td>31</td><td>77.5</td>
+                        <td></td>
+                        <td>4</td><td>10</td>
+                        <td>36</td><td>90</td>
+                        <td></td>
+                        <td>32</td><td>86.5</td>
+                        <td>5</td><td>13.5</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- TILs -->
+                    <tr class="category-header">
+                        <td class="row-header">TILs</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">absent</td>
+                        <td>1 (1)</td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td>1</td><td>100</td>
+                        <td class="p-value-significant">p=0.008</td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td class="p-value-borderline">p=0.288</td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td class="p-value-borderline">p=0.113</td>
+                        <td>1</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td class="p-value-borderline">p=0.595</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">discreet</td>
+                        <td>48 (50)</td>
+                        <td>45</td><td>93.8</td>
+                        <td>3</td><td>6.2</td>
+                        <td>38</td><td>79.2</td>
+                        <td>10</td><td>20.8</td>
+                        <td></td>
+                        <td>13</td><td>27.1</td>
+                        <td>35</td><td>72.9</td>
+                        <td></td>
+                        <td>6</td><td>12.5</td>
+                        <td>42</td><td>87.5</td>
+                        <td></td>
+                        <td>43</td><td>93.5</td>
+                        <td>3</td><td>6.5</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">moderate</td>
+                        <td>33 (34.4)</td>
+                        <td>29</td><td>87.9</td>
+                        <td>4</td><td>12.1</td>
+                        <td>27</td><td>81.8</td>
+                        <td>6</td><td>18.2</td>
+                        <td></td>
+                        <td>7</td><td>21.2</td>
+                        <td>26</td><td>78.8</td>
+                        <td></td>
+                        <td>2</td><td>6.1</td>
+                        <td>31</td><td>93.9</td>
+                        <td></td>
+                        <td>27</td><td>87.1</td>
+                        <td>4</td><td>12.9</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">intense</td>
+                        <td>14 (14.6)</td>
+                        <td>8</td><td>57.1</td>
+                        <td>6</td><td>42.9</td>
+                        <td>10</td><td>71.4</td>
+                        <td>4</td><td>28.6</td>
+                        <td></td>
+                        <td>2</td><td>14.3</td>
+                        <td>12</td><td>85.7</td>
+                        <td></td>
+                        <td>2</td><td>14.3</td>
+                        <td>12</td><td>85.7</td>
+                        <td></td>
+                        <td>12</td><td>85.7</td>
+                        <td>2</td><td>14.3</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- HER-2 -->
+                    <tr class="category-header">
+                        <td class="row-header">HER-2</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">indeterminate</td>
+                        <td>2 (1.4)</td>
+                        <td>2</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td>1</td><td>50</td>
+                        <td>1</td><td>50</td>
+                        <td class="p-value-borderline">p=1.000</td>
+                        <td>0</td><td>0</td>
+                        <td>2</td><td>100</td>
+                        <td class="p-value-borderline">p=0.064</td>
+                        <td>0</td><td>0</td>
+                        <td>2</td><td>100</td>
+                        <td class="p-value-borderline">p=0.711</td>
+                        <td>1</td><td>50</td>
+                        <td>1</td><td>50</td>
+                        <td class="p-value-borderline">p=0.224</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">negative</td>
+                        <td>129 (92.8)</td>
+                        <td>108</td><td>83.7</td>
+                        <td>21</td><td>16.3</td>
+                        <td>103</td><td>79.8</td>
+                        <td>26</td><td>20.2</td>
+                        <td></td>
+                        <td>32</td><td>24.8</td>
+                        <td>97</td><td>75.2</td>
+                        <td></td>
+                        <td>21</td><td>16.3</td>
+                        <td>108</td><td>83.7</td>
+                        <td></td>
+                        <td>110</td><td>89.4</td>
+                        <td>13</td><td>10.6</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">positive</td>
+                        <td>8 (5.8)</td>
+                        <td>7</td><td>87.5</td>
+                        <td>1</td><td>12.5</td>
+                        <td>6</td><td>75</td>
+                        <td>2</td><td>25</td>
+                        <td></td>
+                        <td>5</td><td>62.5</td>
+                        <td>3</td><td>37.5</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>8</td><td>100</td>
+                        <td></td>
+                        <td>7</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- Neoadjuvance -->
+                    <tr class="category-header">
+                        <td class="row-header">Neoadjuvance</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">no</td>
+                        <td>66 (47.1)</td>
+                        <td>58</td><td>87.9</td>
+                        <td>8</td><td>12.1</td>
+                        <td>50</td><td>75.8</td>
+                        <td>16</td><td>24.2</td>
+                        <td class="p-value-borderline">p=0.384</td>
+                        <td>19</td><td>28.8</td>
+                        <td>47</td><td>71.2</td>
+                        <td class="p-value-borderline">p=0.824</td>
+                        <td>6</td><td>9.1</td>
+                        <td>60</td><td>90.9</td>
+                        <td class="p-value-borderline">p=0.107</td>
+                        <td>57</td><td>90.5</td>
+                        <td>6</td><td>9.5</td>
+                        <td class="p-value-borderline">p=0.782</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">yes</td>
+                        <td>74 (52.9)</td>
+                        <td>60</td><td>81.1</td>
+                        <td>14</td><td>18.9</td>
+                        <td>61</td><td>82.4</td>
+                        <td>13</td><td>17.6</td>
+                        <td></td>
+                        <td>19</td><td>25.7</td>
+                        <td>55</td><td>74.3</td>
+                        <td></td>
+                        <td>15</td><td>20.3</td>
+                        <td>59</td><td>79.7</td>
+                        <td></td>
+                        <td>61</td><td>88.4</td>
+                        <td>8</td><td>11.6</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- CPS PD-L1 ² -->
+                    <tr class="category-header">
+                        <td class="row-header">CPS PD-L1²</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">&lt;1</td>
+                        <td>12 (46.2)</td>
+                        <td>10</td><td>83.3</td>
+                        <td>2</td><td>16.7</td>
+                        <td>7</td><td>58.3</td>
+                        <td>5</td><td>41.7</td>
+                        <td class="p-value-borderline">p=0.232</td>
+                        <td>4</td><td>33.3</td>
+                        <td>8</td><td>66.7</td>
+                        <td class="p-value-borderline">p=1.000</td>
+                        <td>3</td><td>25</td>
+                        <td>9</td><td>75</td>
+                        <td class="p-value-borderline">p=1.000</td>
+                        <td>12</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td class="p-value-significant">p&lt; 0.001</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">≥1 and &lt; 10</td>
+                        <td>12 (46.2)</td>
+                        <td>6</td><td>50</td>
+                        <td>6</td><td>50</td>
+                        <td>10</td><td>83.3</td>
+                        <td>2</td><td>16.7</td>
+                        <td></td>
+                        <td>4</td><td>33.3</td>
+                        <td>8</td><td>66.7</td>
+                        <td></td>
+                        <td>2</td><td>16.7</td>
+                        <td>10</td><td>83.3</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>12</td><td>100</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">≥10</td>
+                        <td>2 (7.7)</td>
+                        <td>1</td><td>50</td>
+                        <td>1</td><td>50</td>
+                        <td>1</td><td>50</td>
+                        <td>1</td><td>50</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>2</td><td>100</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>2</td><td>100</td>
+                        <td></td>
+                        <td>0</td><td>0</td>
+                        <td>2</td><td>100</td>
+                        <td></td>
+                    </tr>
+
+                    <!-- Tumour response grade 3 -->
+                    <tr class="category-header">
+                        <td class="row-header">Tumour response grade 3³</td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                        <td></td><td></td>
+                        <td></td><td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">score 1</td>
+                        <td>4 (5.4)</td>
+                        <td>4</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td>2</td><td>50</td>
+                        <td>2</td><td>50</td>
+                        <td class="p-value-borderline">p=0.880</td>
+                        <td>1</td><td>25</td>
+                        <td>3</td><td>75</td>
+                        <td class="p-value-borderline">p=0.893</td>
+                        <td>1</td><td>25</td>
+                        <td>3</td><td>75</td>
+                        <td class="p-value-borderline">p=0.591</td>
+                        <td>2</td><td>66.7</td>
+                        <td>1</td><td>33.3</td>
+                        <td class="p-value-borderline">p=0.174</td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">score 2</td>
+                        <td>17 (23)</td>
+                        <td>14</td><td>82.4</td>
+                        <td>3</td><td>17.6</td>
+                        <td>14</td><td>82.4</td>
+                        <td>3</td><td>17.6</td>
+                        <td></td>
+                        <td>5</td><td>29.4</td>
+                        <td>12</td><td>70.6</td>
+                        <td></td>
+                        <td>2</td><td>11.8</td>
+                        <td>15</td><td>88.2</td>
+                        <td></td>
+                        <td>15</td><td>100</td>
+                        <td>0</td><td>0</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sub-row-header">score 3</td>
+                        <td>53 (71.6)</td>
+                        <td>42</td><td>79.2</td>
+                        <td>11</td><td>20.8</td>
+                        <td>45</td><td>84.9</td>
+                        <td>8</td><td>25.1</td>
+                        <td></td>
+                        <td>13</td><td>24.5</td>
+                        <td>40</td><td>75.5</td>
+                        <td></td>
+                        <td>12</td><td>22.6</td>
+                        <td>41</td><td>77.4</td>
+                        <td></td>
+                        <td>44</td><td>86.3</td>
+                        <td>7</td><td>13.7</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="footnote">
+            <p><strong>Table 1.</strong> Clinical pathologic features of the patient cohort and their association with molecular markers (EBER, MMR, P53, E-cadherin, PD-L1).</p>
+            <p><strong>¹ p-value</strong> (Chi-square or Fisher's exact test).</p>
+            <p><strong>Abbreviations:</strong> TILs = Tumor-infiltrating lymphocytes; EBER = EBV probe; Mt = p53 mutant type; Wt = p53 wild type.</p>
+            <p><strong>Notes:</strong> ² Only in cases with PD-L1 positive. ³ Only in cases with neoadjuvance.</p>
+            <p><em>Significance coding:</em> <span style="color: #e74c3c;">● p &lt; 0.05</span> | <span style="color: #e67e22;">● p &lt; 0.10</span></p>
+        </div>
+    </div>
+</body>
+</html>
